@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T06:30:41.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gqzct0RvsZloGyhYtsCd" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T06:30:56.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fFazQ6Fmw_0HG4-zS6Jl" version="21.6.2" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="1674" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
         <mxCell id="Vyd7m7VRwIeQpGS7CsqH-19" value="和上面查出来的thanosStart, thanosEnd&lt;br&gt;和查询的起止时间做一些对比&lt;br&gt;涉及 Thanos.downSampleMinRange&amp;nbsp;&lt;br&gt;不知道什么东西" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="531.25" y="1754" width="317.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="Vyd7m7VRwIeQpGS7CsqH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Vyd7m7VRwIeQpGS7CsqH-24">
+        <mxCell id="Vyd7m7VRwIeQpGS7CsqH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vyd7m7VRwIeQpGS7CsqH-21" target="Vyd7m7VRwIeQpGS7CsqH-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="2000" as="sourcePoint" />
           </mxGeometry>

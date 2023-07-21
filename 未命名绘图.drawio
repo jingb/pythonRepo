@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T02:13:20.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="k78EdssLDH2ZJ-2hYB48" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T02:14:46.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0z_-Z290c-OGmr-VDfc7" version="21.6.2" type="github">
   <diagram name="Page-1" id="fc2ac565-0d4e-3f0d-88b0-a54af1634ed7">
-    <mxGraphModel dx="1969" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1807" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -354,7 +354,7 @@
             <mxRectangle width="131" height="95" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSwfGb9cvc9l0ixLr9yk-5" value="&lt;div&gt;prod志享、首鸣&lt;/div&gt;&lt;div&gt;完成&lt;br&gt;@元庆&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="QB9zUw-J1UZHlNnHXi6y-9">
+        <mxCell id="lSwfGb9cvc9l0ixLr9yk-5" value="&lt;div&gt;prod处理了&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;志享、首鸣机房&lt;/span&gt;&lt;/div&gt;&lt;div&gt;@元庆&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="QB9zUw-J1UZHlNnHXi6y-9">
           <mxGeometry x="1257" width="131" height="95" as="geometry">
             <mxRectangle width="131" height="95" as="alternateBounds" />
           </mxGeometry>
@@ -427,7 +427,7 @@
             <mxRectangle width="131" height="95" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSwfGb9cvc9l0ixLr9yk-6" value="prod志享、首鸣&lt;br&gt;完成&lt;br&gt;@元庆" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="QB9zUw-J1UZHlNnHXi6y-1">
+        <mxCell id="lSwfGb9cvc9l0ixLr9yk-6" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;prod处理了&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;志享、首鸣机房&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;@元庆&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="QB9zUw-J1UZHlNnHXi6y-1">
           <mxGeometry x="1257" width="131" height="95" as="geometry">
             <mxRectangle width="131" height="95" as="alternateBounds" />
           </mxGeometry>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T08:23:34.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="riXBQiRUIusxUtPNnRDK" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T08:25:37.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZvyjGkJUhmEe8QA3b-jZ" version="22.0.8" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="2261" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -440,7 +440,7 @@
         <mxCell id="n9XaNXPt9THNWfoI1lS7-5" value="调用链" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-715" y="5180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n9XaNXPt9THNWfoI1lS7-6" value="kafka集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-6" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-465" y="5180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-7" target="n9XaNXPt9THNWfoI1lS7-6">
@@ -519,6 +519,9 @@
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-29" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-80" y="5293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-34" value="transfer的作用&lt;br style=&quot;font-size: 15px;&quot;&gt;1. 补元数据标签&amp;nbsp; idc、psa……&lt;br style=&quot;font-size: 15px;&quot;&gt;2. 做otlp指标名的转换&amp;nbsp; 对齐老调用链指标名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="5144" width="313.62" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

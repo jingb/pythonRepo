@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T08:26:13.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QZl0PYOf04-Ti-txQ25o" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T08:32:16.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_d_197aGu8OWvH3bnMHk" version="22.0.8" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
-    <mxGraphModel dx="2261" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2491" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,6 +428,14 @@
             <mxPoint x="30" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-1" target="n9XaNXPt9THNWfoI1lS7-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-37" value="同样的数据又写了一份进&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="n9XaNXPt9THNWfoI1lS7-36">
+          <mxGeometry x="0.1814" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-1" value="调用链指标&lt;br style=&quot;font-size: 15px;&quot;&gt;10+个" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-690" y="4690" width="140" height="70" as="geometry" />
         </mxCell>
@@ -438,10 +446,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-5" value="调用链" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-715" y="5180" width="120" height="60" as="geometry" />
+          <mxGeometry x="-728.62" y="5320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-6" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-465" y="5180" width="120" height="60" as="geometry" />
+          <mxGeometry x="-478.62" y="5320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-7" target="n9XaNXPt9THNWfoI1lS7-6">
           <mxGeometry relative="1" as="geometry" />
@@ -461,24 +469,24 @@
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-7" target="n9XaNXPt9THNWfoI1lS7-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-120" y="5080" as="targetPoint" />
+            <mxPoint x="-133.62" y="5220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-7" value="南天门" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-285" y="4940" width="120" height="60" as="geometry" />
+          <mxGeometry x="-298.62" y="5080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n9XaNXPt9THNWfoI1lS7-11" value="1. 业务黄金指标使用调用链的指标数据在告警，非常重要&lt;br&gt;还不敢全切到下面的链路&lt;br&gt;&lt;br&gt;2. 当前比较复杂的sql已经1000+行&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;3. 两条路对应的tshouse database不一样 如果业务使用了质量大盘的功能&lt;br&gt;对应的告警策略也需要修改&amp;nbsp; &amp;nbsp;不然相当于老链路没数据了&amp;nbsp; 新链路没告警策略&lt;br&gt;&lt;b&gt;软件商店已经开始试用了需要注意这个问题&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="200" y="4750" as="geometry" />
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-11" value="&lt;br&gt;1. 老的database可能叫 xxx_trace&amp;nbsp; &amp;nbsp;新的统一叫tingfeng-server_trace&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;br&gt;2. 页面查询各个环境包括生产都已经使用 tingfeng-server_trace&amp;nbsp; &amp;nbsp;质量大盘的告警还是用老database，非常敏感不敢切换&lt;br&gt;&lt;br&gt;3. 当前比较复杂的sql已经1000+行&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;4. 两条路对应的tshouse database不一样 如果业务使用了质量大盘的功能&lt;br&gt;对应的告警策略也需要修改&amp;nbsp; &amp;nbsp;不然相当于老链路没数据了&amp;nbsp; 新链路没告警策略&lt;br&gt;&lt;b&gt;软件商店已经开始试用了需要注意这个问题&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="4800" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-12" value="南天门表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="10" y="4940" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3.619999999999999" y="5080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-15" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="5060" width="120" height="60" as="geometry" />
+          <mxGeometry x="-93.62" y="5200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-17" target="n9XaNXPt9THNWfoI1lS7-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="238.76" y="5374" as="targetPoint" />
+            <mxPoint x="225.14" y="5514" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-17" target="n9XaNXPt9THNWfoI1lS7-29">
@@ -490,13 +498,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-17" value="consume组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="178.76" y="5293" width="120" height="51" as="geometry" />
+          <mxGeometry x="165.14" y="5433" width="120" height="51" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-21" value="tshouse" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="178.76" y="5393" width="120" height="60" as="geometry" />
+          <mxGeometry x="165.14" y="5533" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-25" value="使用otlp agent的都走的下面的链路" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="4955" width="272.5" height="30" as="geometry" />
+          <mxGeometry x="-756.25" y="5080" width="272.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-26" target="n9XaNXPt9THNWfoI1lS7-15">
           <mxGeometry relative="1" as="geometry" />
@@ -515,13 +523,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-26" value="transfer组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="5183" width="120" height="51" as="geometry" />
+          <mxGeometry x="-93.62" y="5323" width="120" height="51" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-29" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="5293" width="120" height="60" as="geometry" />
+          <mxGeometry x="-93.62" y="5433" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-34" value="transfer的作用&lt;br style=&quot;font-size: 15px;&quot;&gt;1. 补元数据标签&amp;nbsp; idc、psa……&lt;br style=&quot;font-size: 15px;&quot;&gt;2. 做otlp指标名的转换&amp;nbsp; 对齐老调用链指标名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="60" y="5144" width="313.62" height="90" as="geometry" />
+          <mxGeometry x="46.38" y="5284" width="313.62" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-35" value="transfer地址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="4830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

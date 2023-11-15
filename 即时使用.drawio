@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T06:17:00.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ezsV7m9b-NCqHTasKTN3" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T06:20:42.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DMtOXfQpsZIDAwRltWLt" version="22.1.1" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="2501" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -714,11 +714,16 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-27" value="理论上这条数据应该是在窗口1内收到的&lt;br style=&quot;font-size: 14px;&quot;&gt;但可能最上游有延迟啥的，根因还是南天门这个聚合的时间窗口调太小了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="D2K7K4AhZkhSWhHILKWe-19">
+          <mxGeometry x="0.0936" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="D2K7K4AhZkhSWhHILKWe-23" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="650" y="6820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D2K7K4AhZkhSWhHILKWe-26" value="&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;transfer的聚合功能&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 只针对调用链和网关的数据&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 支持策略比较少&amp;nbsp; 求和&amp;nbsp; 最大&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 代码是从0慢慢堆的一开始没考虑那么多，扩展性不够" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="6690" width="439.37" height="100" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-26" value="transfer的聚合功能&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 只针对调用链和网关的数据&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 支持策略比较少&amp;nbsp; 求和&amp;nbsp; 最大&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 代码是从0慢慢堆的一开始没考虑那么多，扩展性不够&lt;br&gt;&lt;br&gt;简而言之当前是承担了很多原来在调用链自身聚合组件里做的工作&lt;br&gt;感觉最好的做法是把南天门的时间窗口调大，当前大部分是5s、10s" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-89.37" y="6670" width="439.37" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T06:56:46.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PQuDRr4dz6-iq3Gd46yb" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T03:30:32.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3qXARwWSchyRXXd4k2d7" version="22.1.1" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="2501" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -641,23 +641,26 @@
         <mxCell id="xNweWu5RZ_i7wBBOCWkI-102" value="根据从哪个topic消费路由至不同的tsdb集群，灵活切换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="96.69" y="6170" width="213" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="N_yJwBp-4oM9fk8B0wHj-2" value="scraper分组收敛&lt;br style=&quot;font-size: 15px;&quot;&gt;1. 当前需求多，某个appid指定写至某个tshouse集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-519.37" y="6710" width="300" height="70" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-1" value="ip1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-667" y="7270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N_yJwBp-4oM9fk8B0wHj-13" value="watcher单点改造" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-454.37" y="7120" width="150" height="60" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-2" value="ip2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-493" y="7270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N_yJwBp-4oM9fk8B0wHj-15" value="transfer可靠性及自监控链路review" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-454.37" y="6960" width="160" height="60" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-3" value="Collector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="7140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N_yJwBp-4oM9fk8B0wHj-16" value="spider切换写transfer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-454.37" y="6800" width="140" height="60" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-4" value="南天门&lt;br&gt;kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="6940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N_yJwBp-4oM9fk8B0wHj-17" value="scraper切换写transfer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-454.37" y="6880" width="160" height="60" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-5" value="0-10s窗口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="6820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N_yJwBp-4oM9fk8B0wHj-18" value="union-consume工程查询链路梳理+查vm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-458.62" y="7040" width="160" height="60" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-6" value="11-20s窗口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="6820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-7" value="21-30s窗口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="6820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

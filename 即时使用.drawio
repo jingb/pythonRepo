@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T06:20:42.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DMtOXfQpsZIDAwRltWLt" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T06:21:57.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rB2A-2NKid3p3lvckZ7S" version="22.1.1" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="2501" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -722,8 +722,8 @@
         <mxCell id="D2K7K4AhZkhSWhHILKWe-23" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="650" y="6820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D2K7K4AhZkhSWhHILKWe-26" value="transfer的聚合功能&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 只针对调用链和网关的数据&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 支持策略比较少&amp;nbsp; 求和&amp;nbsp; 最大&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 代码是从0慢慢堆的一开始没考虑那么多，扩展性不够&lt;br&gt;&lt;br&gt;简而言之当前是承担了很多原来在调用链自身聚合组件里做的工作&lt;br&gt;感觉最好的做法是把南天门的时间窗口调大，当前大部分是5s、10s" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-89.37" y="6670" width="439.37" height="100" as="geometry" />
+        <mxCell id="D2K7K4AhZkhSWhHILKWe-26" value="transfer的聚合功能&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 只针对调用链和网关的数据&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 支持策略比较少&amp;nbsp; 求和&amp;nbsp; 最大&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 代码是从0慢慢堆的一开始没考虑那么多，扩展性不够&lt;br&gt;&lt;br&gt;1. 简而言之当前是承担了很多原来在调用链自身聚合组件里做的工作&lt;br&gt;感觉最好的做法是把南天门的时间窗口调大，当前大部分是5s、10s&lt;br&gt;2. 其它产品像中间件啥的，不太确定聚合是不是写promql的时候做聚合，不像调用链的指标前置聚合" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-109.69" y="6650" width="639.37" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

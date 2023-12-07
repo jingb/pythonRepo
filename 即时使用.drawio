@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T06:31:03.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HKqJwXHoDsG3w4OdYSP-" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T06:45:06.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vE8br9DQQeNagLDE8yt5" version="22.1.7" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3328" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -833,7 +833,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9BVRgB0epIW6YMYdb4xD-6" value="调用链&lt;br style=&quot;font-size: 14px;&quot;&gt;自有聚合组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-806.1700000000003" y="8700" width="120" height="60" as="geometry" />
+          <mxGeometry x="-810.0000000000003" y="8670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9BVRgB0epIW6YMYdb4xD-12" value="流式告警组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-154.4" y="9102" width="120" height="60" as="geometry" />
@@ -899,7 +899,7 @@
           <mxGeometry x="-779.37" y="9314" width="180" height="78" as="geometry" />
         </mxCell>
         <mxCell id="9BVRgB0epIW6YMYdb4xD-39" value="老调用链sdk走自有聚合组件的链路" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-756.25" y="8768" width="272.5" height="30" as="geometry" />
+          <mxGeometry x="-756.25" y="8753" width="272.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T06:28:45.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mps1qsgf1Rjd18ObuIV7" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T06:30:22.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tE5JkKtGyaF12EEH0-33" version="22.1.7" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3328" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,7 +381,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n9XaNXPt9THNWfoI1lS7-7" value="南天门flink任务&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;聚合功能（第1次聚合），支持sql及jar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-7" value="南天门flink任务&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;聚合功能（第1次聚合），支持sql及jar&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="90" y="8610" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-11" value="&lt;br&gt;1. 老的database可能叫 xxx_trace&amp;nbsp; &amp;nbsp;新的统一叫tingfeng-server_trace&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;br&gt;2. 页面查询各个环境包括生产都已经使用 tingfeng-server_trace&amp;nbsp; &amp;nbsp;质量大盘的告警还是用老database，非常敏感不敢切换&lt;br&gt;&lt;br&gt;3. 当前比较复杂的sql已经1000+行&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;4. 两条路对应的tshouse database不一样 如果业务使用了质量大盘的功能&lt;br&gt;对应的告警策略也需要修改&amp;nbsp; &amp;nbsp;不然相当于老链路没数据了&amp;nbsp; 新链路没告警策略&lt;br&gt;&lt;b&gt;软件商店已经开始试用了需要注意这个问题&lt;/b&gt;&lt;br&gt;&lt;br&gt;5. 之前如果flink作业出问题最快的恢复方式是复制一个任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="1" vertex="1" connectable="0">
@@ -434,7 +434,7 @@
         <mxCell id="9BVRgB0epIW6YMYdb4xD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="n9XaNXPt9THNWfoI1lS7-29" target="9BVRgB0epIW6YMYdb4xD-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9BVRgB0epIW6YMYdb4xD-14" value="实时消费计算告警&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;消费&amp;nbsp;trace-processed&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="9BVRgB0epIW6YMYdb4xD-13">
+        <mxCell id="9BVRgB0epIW6YMYdb4xD-14" value="实时消费计算告警&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;消费&amp;nbsp;trace-processed&amp;nbsp; topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="9BVRgB0epIW6YMYdb4xD-13">
           <mxGeometry x="-0.0185" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -450,7 +450,7 @@
         <mxCell id="n9XaNXPt9THNWfoI1lS7-29" value="kafka集群2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-154.4" y="8890" width="120" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="n9XaNXPt9THNWfoI1lS7-34" value="transfer的作用&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 补元数据标签&amp;nbsp; idc、psa……&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 做otlp指标名的转换&amp;nbsp; 对齐老调用链指标名&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 还有个自己做的聚合功能（坑）（第2次聚合）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="n9XaNXPt9THNWfoI1lS7-34" value="transfer的作用&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 补元数据标签&amp;nbsp; idc、psa……&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 做otlp指标名的转换&amp;nbsp; 对齐老调用链指标名&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;3. 还有个自己做的聚合功能（坑）（第2次聚合）&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-19.24" y="8740" width="444.86" height="90" as="geometry" />
         </mxCell>
         <mxCell id="n9XaNXPt9THNWfoI1lS7-35" value="transfer地址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
@@ -854,7 +854,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9BVRgB0epIW6YMYdb4xD-15" value="告警策略mongo库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9BVRgB0epIW6YMYdb4xD-15" value="告警策略&lt;br&gt;mongo库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-405.47" y="9102" width="120.63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9BVRgB0epIW6YMYdb4xD-16" value="有4条兜底的告警策略针对所有接入调用链及网关的应用都生效，无须显示配置&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;网关2条&amp;nbsp; &amp;nbsp;调用链指标2条&lt;br&gt;&lt;br&gt;&lt;br&gt;网关、调用链、中间件、物理机、自定义脚本监控指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -892,7 +892,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9BVRgB0epIW6YMYdb4xD-30" value="union-monitor-aggregator&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;只服务流式告警&lt;br style=&quot;font-size: 14px;&quot;&gt;（第3次聚合）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9BVRgB0epIW6YMYdb4xD-30" value="union-monitor-aggregator&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;只服务流式告警&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;（第3次聚合）&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220.75" y="8890" width="286" height="117" as="geometry" />
         </mxCell>
         <mxCell id="9BVRgB0epIW6YMYdb4xD-38" value="sla-calculator也有在做类似judge-pull计算的事情" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">

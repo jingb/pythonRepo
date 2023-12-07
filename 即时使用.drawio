@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T06:30:22.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tE5JkKtGyaF12EEH0-33" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T06:31:03.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HKqJwXHoDsG3w4OdYSP-" version="22.1.7" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3328" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -857,7 +857,7 @@
         <mxCell id="9BVRgB0epIW6YMYdb4xD-15" value="告警策略&lt;br&gt;mongo库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-405.47" y="9102" width="120.63" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9BVRgB0epIW6YMYdb4xD-16" value="有4条兜底的告警策略针对所有接入调用链及网关的应用都生效，无须显示配置&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;网关2条&amp;nbsp; &amp;nbsp;调用链指标2条&lt;br&gt;&lt;br&gt;&lt;br&gt;网关、调用链、中间件、物理机、自定义脚本监控指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9BVRgB0epIW6YMYdb4xD-16" value="有4条兜底的告警策略针对所有接入调用链及网关的应用都生效，无须显示配置&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;网关2条&amp;nbsp; &amp;nbsp;调用链指标2条&lt;br&gt;&lt;br&gt;&lt;br&gt;流式告警组件是基于数据驱动，理论上没数据会导致告警发不出来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="25.22" y="9102" width="268.32" height="128" as="geometry" />
         </mxCell>
         <mxCell id="9BVRgB0epIW6YMYdb4xD-19" value="judge-pull" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">

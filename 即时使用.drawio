@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T02:57:56.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="coinIk28HY8punh0kElA" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T02:58:05.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="u_ikhDX11pJ9KBfoMVAO" version="22.1.11" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
         </mxCell>
         <mxCell id="-poWpJFEUF-t3kWE2Xej-30" value="prometheus remote write protocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="-poWpJFEUF-t3kWE2Xej-29">
           <mxGeometry x="-0.1818" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="24" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-poWpJFEUF-t3kWE2Xej-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">

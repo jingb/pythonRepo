@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T03:28:08.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MnRfde-CpLFOWZJc2obT" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T06:47:45.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hRkJZLcwcFRa-b4qki4q" version="22.1.18" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1041,7 +1041,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-27" value="watcher 这几类分组&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;1. cd 及 consul拉取（主力分组）&lt;br style=&quot;font-size: 13px;&quot;&gt;2. 根据psa从cmdb拉的ip （&lt;b style=&quot;font-size: 13px;&quot;&gt;这类的分组是最多的，以为支持的配置不够灵活&lt;/b&gt;）&lt;br style=&quot;font-size: 13px;&quot;&gt;3. oke&lt;br style=&quot;font-size: 13px;&quot;&gt;4. 物理机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="11000" width="320" height="120" as="geometry" />
+          <mxGeometry x="-110" y="10980" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.186;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-27" target="UAp4w-LT1WaDIwZC1zaw-20">
           <mxGeometry relative="1" as="geometry">

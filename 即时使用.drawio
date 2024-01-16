@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T03:20:39.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dPvAq2oAho8Y3KF4Xw60" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T03:21:17.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CA32B-y3O6igMUaDxGL2" version="22.1.18" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1054,10 +1054,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="980" y="10420" width="230" height="450" as="geometry" />
+          <mxGeometry x="986.25" y="10430" width="230" height="490" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
-          <mxGeometry width="230" height="450" as="geometry" />
+          <mxGeometry width="230" height="490" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-1" value="北京Nvme 1 集群&lt;br&gt;容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="24.210000000000036" y="100" width="163.37" height="60" as="geometry" />
@@ -1076,6 +1076,9 @@
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-6" value="大数据集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="27.25" y="370" width="159.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-47" value="……其它" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+          <mxGeometry x="30" y="420" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.869;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-20" target="UAp4w-LT1WaDIwZC1zaw-31">
           <mxGeometry relative="1" as="geometry" />

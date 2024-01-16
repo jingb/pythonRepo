@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T09:24:08.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hugTYIFHaql-pAq__Zqh" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T09:26:07.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QqCw8uzHYBzDgt7CeRf0" version="22.1.18" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1137,14 +1137,14 @@
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-60" value="各类客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-101.87999999999994" y="11250" width="159.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-61" value="vmagent只负责抓取&lt;br&gt;部署模型按什么来？" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="119.00000000000007" y="11560" width="159.13" height="60" as="geometry" />
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-61" value="vmagent只负责抓取&lt;br&gt;部署模型按什么来？&lt;br&gt;极限情况国内一个大分组？" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="103.94000000000001" y="11572.039999999999" width="191" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-61" target="UAp4w-LT1WaDIwZC1zaw-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-64" value="watcher 无状态，国内一个分组" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;align=center;" vertex="1" parent="1">
-          <mxGeometry x="83.37" y="11720" width="246" height="50" as="geometry" />
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-64" value="watcher 部署模型&lt;br&gt;国内一个大分组？" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="84" y="11704.38" width="246" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=default;exitX=0.472;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-64" target="UAp4w-LT1WaDIwZC1zaw-61">
           <mxGeometry relative="1" as="geometry">
@@ -1160,7 +1160,7 @@
           <mxGeometry x="916.25" y="11704.38" width="146" height="92.48" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1066.25" y="11250" width="280" height="594.38" as="geometry" />
+          <mxGeometry x="1066.25" y="11250" width="253.75" height="600" as="geometry" />
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-69" value="北京Nvme 1 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;容器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1122.8321826086958" y="11338.262040816326" width="139.36171304347826" height="63.06122448979592" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T03:23:35.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OlIHq_YQh2AvJVgogk-A" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T03:27:36.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AllDWyqQx9sNmp-7Rf4C" version="22.1.18" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -985,70 +985,70 @@
         <mxCell id="-poWpJFEUF-t3kWE2Xej-28" value="transfer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="680" y="10175" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-8" target="UAp4w-LT1WaDIwZC1zaw-9">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-8" target="UAp4w-LT1WaDIwZC1zaw-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-12" value="消费多个topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-10">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-12" value="消费多个topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-10">
           <mxGeometry x="0.0555" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-8" target="UAp4w-LT1WaDIwZC1zaw-31">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-8" target="UAp4w-LT1WaDIwZC1zaw-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-13" value="支持按topic来路由任意写入地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-11">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-13" value="支持按topic来路由任意写入地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-11">
           <mxGeometry x="-0.1717" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-8" value="consume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660.4300000000001" y="10595" width="159.13" height="60" as="geometry" />
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-8" value="consume" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="650.0000000000001" y="10595" width="159.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-9" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="10595" width="159.13" height="60" as="geometry" />
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-9" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360.87" y="10595" width="159.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-14" target="UAp4w-LT1WaDIwZC1zaw-9">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-14" target="UAp4w-LT1WaDIwZC1zaw-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-16" value="根据category写入topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-15">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-16" value="根据category写入topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-15">
           <mxGeometry x="-0.009" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-14" value="transfer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-14" value="transfer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-59.99999999999997" y="10595" width="159.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-17" target="UAp4w-LT1WaDIwZC1zaw-14">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-17" target="UAp4w-LT1WaDIwZC1zaw-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-19" value="支持各种协议及报文格式写入&lt;br&gt;remote_write&lt;br&gt;grpc&lt;br&gt;push gateway&lt;br&gt;自定义http接口&lt;br&gt;……" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-18">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-19" value="支持各种协议及报文格式写入&lt;br style=&quot;font-size: 13px;&quot;&gt;remote_write&lt;br style=&quot;font-size: 13px;&quot;&gt;grpc&lt;br style=&quot;font-size: 13px;&quot;&gt;push gateway&lt;br style=&quot;font-size: 13px;&quot;&gt;自定义http接口&lt;br style=&quot;font-size: 13px;&quot;&gt;……" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-18">
           <mxGeometry x="-0.3108" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-17" value="各类客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-243.25999999999996" y="10415" width="159.13" height="60" as="geometry" />
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-17" value="各类客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-279.99999999999994" y="10415" width="159.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-20" value="scraper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-20" value="scraper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-59.999999999999936" y="10760" width="159.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-20" target="UAp4w-LT1WaDIwZC1zaw-14">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-20" target="UAp4w-LT1WaDIwZC1zaw-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-22" value="/api/v2/metrics&lt;br&gt;私有http接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-21">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-22" value="/api/v2/metrics&lt;br style=&quot;font-size: 13px;&quot;&gt;私有http接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-21">
           <mxGeometry x="-0.4921" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-27" value="watcher 这几类分组&lt;br&gt;&lt;br&gt;1. cd 及 consul拉取（主力分组）&lt;br&gt;2. 根据psa从cmdb拉的ip （&lt;b&gt;这类的分组是最多的&lt;/b&gt;）&lt;br&gt;3. oke&lt;br&gt;4. 物理机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-27" value="watcher 这几类分组&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;1. cd 及 consul拉取（主力分组）&lt;br style=&quot;font-size: 13px;&quot;&gt;2. 根据psa从cmdb拉的ip （&lt;b style=&quot;font-size: 13px;&quot;&gt;这类的分组是最多的&lt;/b&gt;）&lt;br style=&quot;font-size: 13px;&quot;&gt;3. oke&lt;br style=&quot;font-size: 13px;&quot;&gt;4. 物理机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-100" y="11000" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.186;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-27" target="UAp4w-LT1WaDIwZC1zaw-20">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.186;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-27" target="UAp4w-LT1WaDIwZC1zaw-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-23" y="10880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-30" value="之间有心跳及任务分配及下发功能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-29">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-30" value="之间有心跳及任务分配及下发功能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-29">
           <mxGeometry x="0.0212" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1059,34 +1059,37 @@
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry width="230" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-1" value="北京Nvme 1 集群&lt;br&gt;容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-1" value="北京Nvme 1 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;容器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="24.210000000000036" y="100" width="163.37" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-2" value="custom集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-2" value="custom集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="28.210000000000036" y="310" width="159.13" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-3" value="北京Nvme 2 集群&lt;br&gt;比较杂" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-3" value="北京Nvme 2 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;比较杂" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="24.210000000000036" y="170" width="160.41" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-4" value="北京Nvme 3 集群&lt;br&gt;网关调用链、中间件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-4" value="北京Nvme 3 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;网关调用链、中间件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="28.210000000000036" y="240" width="159.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-5" value="北京Sata 集群&lt;br&gt;最早最老，啥都有" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-5" value="北京Sata 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;最早最老，啥都有" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="21.25" y="30" width="163.37" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-6" value="大数据集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-6" value="大数据集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="27.25" y="370" width="159.13" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-47" value="……其它" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-47" value="……其它" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-32">
           <mxGeometry x="30" y="420" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.869;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-20" target="UAp4w-LT1WaDIwZC1zaw-31">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.869;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-20" target="UAp4w-LT1WaDIwZC1zaw-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-35" value="grpc client直接写入&lt;br&gt;&lt;br&gt;1. 有些情况写transfer有丢点&lt;br&gt;2. 每个scraper分组只能指定一个tshouse写入地址，所以整了那么多分组&lt;br&gt;tshouse压力大的时候这是重要的应急手段，可以将某些应用的采集指标整体写入别的tshouse集群" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-34">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-35" value="grpc client直接写入&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;1. 有些情况写transfer有丢点&lt;br style=&quot;font-size: 13px;&quot;&gt;2. 每个scraper分组只能指定一个tshouse写入地址，所以整了那么多分组&lt;br style=&quot;font-size: 13px;&quot;&gt;tshouse压力大的时候这是重要的应急手段，可以将某些应用的采集指标整体写入别的tshouse集群" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-34">
           <mxGeometry x="0.0065" y="-3" relative="1" as="geometry">
             <mxPoint x="-325" y="-11" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-48" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;我们的理想情况是能灵活的根据某些特征值（最典型是appid，有时甚至按集群级别在做迁移）然后写入任意的tshouse或者tsdb地址，不管这个路由功能是在哪里实现&lt;br style=&quot;margin: 0px; padding: 0px; outline: none; box-sizing: border-box; font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;/b&gt;&lt;br style=&quot;margin: 0px; padding: 0px; outline: none; box-sizing: border-box; font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;当前因为只能到topic\category粒度，所以这也是这么多的scraper分组的一个原因&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="263.55" y="10460" width="506.45" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

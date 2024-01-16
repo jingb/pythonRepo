@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T02:32:51.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KV3ls2shN7gfLWbu6ZLX" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T03:20:30.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ruh3cw2sQV7wXm9VkYLR" version="22.1.18" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1080,9 +1080,9 @@
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.869;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-20" target="UAp4w-LT1WaDIwZC1zaw-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UAp4w-LT1WaDIwZC1zaw-35" value="grpc client直接写入&lt;br&gt;&lt;br&gt;1. 有些情况写transfer有丢点&lt;br&gt;2. 每个scraper分组只能指定一个tshouse写入地址，所以整了那么多分组&lt;br&gt;tshouse压力大的时候这是重要的应急手段，可以将某些应用的采集指标整体写入别的tshouse集群" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-34">
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-35" value="grpc client直接写入&lt;br&gt;&lt;br&gt;1. 有些情况写transfer有丢点&lt;br&gt;2. 每个scraper分组只能指定一个tshouse写入地址，所以整了那么多分组&lt;br&gt;tshouse压力大的时候这是重要的应急手段，可以将某些应用的采集指标整体写入别的tshouse集群" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-34">
           <mxGeometry x="0.0065" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-325" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

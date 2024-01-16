@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T06:48:40.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wQ49Y5Yyx5lOwYYKBAKC" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T06:53:27.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JXypwkOHnaveNiR0Qoe6" version="22.1.18" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1090,6 +1090,98 @@
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-48" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;我们的理想情况是能灵活的根据某些特征值（最典型是appid，有时甚至按集群级别在做迁移）然后写入任意的tshouse或者tsdb地址，不管这个路由功能是在哪里实现&lt;br style=&quot;margin: 0px; padding: 0px; outline: none; box-sizing: border-box; font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;/b&gt;&lt;br style=&quot;margin: 0px; padding: 0px; outline: none; box-sizing: border-box; font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;当前因为只能到topic\category粒度，所以这也是这么多的scraper分组的一个原因&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="263.55" y="10460" width="506.45" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-53" target="UAp4w-LT1WaDIwZC1zaw-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-50" value="消费多个topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-49">
+          <mxGeometry x="0.0555" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-53" target="UAp4w-LT1WaDIwZC1zaw-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-52" value="支持按topic来路由任意写入地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-51">
+          <mxGeometry x="-0.1717" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-53" value="consume" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="740.0000000000001" y="11430" width="159.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-54" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460.64" y="11430" width="159.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-57" target="UAp4w-LT1WaDIwZC1zaw-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-56" value="根据category写入topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-55">
+          <mxGeometry x="-0.009" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-57" value="transfer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="119.87000000000003" y="11430" width="159.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-60" target="UAp4w-LT1WaDIwZC1zaw-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.00000000000022" y="11280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-59" value="支持各种协议及报文格式写入&lt;br style=&quot;font-size: 13px;&quot;&gt;remote_write&lt;br style=&quot;font-size: 13px;&quot;&gt;grpc&lt;br style=&quot;font-size: 13px;&quot;&gt;push gateway&lt;br style=&quot;font-size: 13px;&quot;&gt;自定义http接口&lt;br style=&quot;font-size: 13px;&quot;&gt;……" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=default;" vertex="1" connectable="0" parent="UAp4w-LT1WaDIwZC1zaw-58">
+          <mxGeometry x="-0.3108" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-60" value="各类客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-101.87999999999994" y="11250" width="159.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-61" value="vmagent&lt;br&gt;部署模型按什么来？" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="119.00000000000007" y="11560" width="159.13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=default;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-61" target="UAp4w-LT1WaDIwZC1zaw-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-64" value="watcher 无状态，国内一个分组" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="83.37" y="11720" width="246" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=default;exitX=0.472;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UAp4w-LT1WaDIwZC1zaw-64" target="UAp4w-LT1WaDIwZC1zaw-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="156" y="11680" as="targetPoint" />
+            <mxPoint x="198.49" y="11740" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-67" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1080" y="11240" width="196.2" height="515" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry width="196.2" height="515" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-69" value="北京Nvme 1 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;容器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry x="20.652182608695682" y="105.10204081632652" width="139.36171304347826" height="63.06122448979592" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-70" value="custom集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry x="24.06435652173916" y="325.81632653061223" width="135.74480869565218" height="42.04081632653061" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-71" value="北京Nvme 2 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;比较杂" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry x="20.652182608695682" y="178.6734693877551" width="136.8367043478261" height="63.06122448979592" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-72" value="北京Nvme 3 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;网关调用链、中间件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry x="24.06435652173916" y="252.24489795918367" width="135.74480869565218" height="63.06122448979592" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-73" value="北京Sata 集群&lt;br style=&quot;font-size: 13px;&quot;&gt;最早最老，啥都有" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry x="18.127173913043478" y="31.53061224489796" width="139.36171304347826" height="63.06122448979592" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-74" value="大数据集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry x="23.245434782608694" y="388.87755102040813" width="135.74480869565218" height="42.04081632653061" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-75" value="vm集群……" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="UAp4w-LT1WaDIwZC1zaw-67">
+          <mxGeometry x="25.591304347826085" y="441.4285714285714" width="136.48695652173913" height="52.55102040816326" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-78" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;我们的理想情况是能灵活的根据某些特征值（最典型是appid，有时甚至按集群级别在做迁移）然后写入任意的tshouse或者tsdb地址，不管这个路由功能是在哪里实现&lt;br style=&quot;margin: 0px; padding: 0px; outline: none; box-sizing: border-box; font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;/b&gt;&lt;br style=&quot;margin: 0px; padding: 0px; outline: none; box-sizing: border-box; font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, SimHei, sans-serif; background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;当前因为只能到topic\category粒度，所以这也是这么多的scraper分组的一个原因&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="321.77" y="11300" width="506.45" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

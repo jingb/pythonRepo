@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T08:24:27.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="a3QR9HwC33LYAwqBZ10d" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T08:53:29.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ku7XjGrMlaPnxHnRAmg9" version="22.1.18" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-96" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="12000" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-95" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="12000" width="390" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="-poWpJFEUF-t3kWE2Xej-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="-poWpJFEUF-t3kWE2Xej-23" target="-poWpJFEUF-t3kWE2Xej-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1185,6 +1191,24 @@
         </mxCell>
         <mxCell id="UAp4w-LT1WaDIwZC1zaw-81" value="……&lt;br&gt;vm集群N" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1126.2413043478261" y="11764.37857142857" width="136.48695652173913" height="52.55102040816326" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-91" value="容器&lt;br&gt;vm集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="838.2213043478262" y="12069.99857142857" width="136.48695652173913" height="52.55102040816326" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-92" value="自定义指标&lt;br&gt;vm集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="483.36130434782615" y="12079.99857142857" width="136.48695652173913" height="52.55102040816326" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-93" value="大数据&lt;br&gt;vm集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="276.87130434782614" y="12079.99857142857" width="136.48695652173913" height="52.55102040816326" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-94" value="其它指标&lt;br&gt;vm集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1030.0013043478261" y="12069.99857142857" width="136.48695652173913" height="52.55102040816326" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-97" value="汇天" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="12010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UAp4w-LT1WaDIwZC1zaw-98" value="昌平" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="12010" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

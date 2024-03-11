@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T01:54:37.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-jcdKkOMML4LbGu6gbr0" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T01:56:57.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aqsOyVrtLoZitPh4MJL-" version="24.0.2" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1481,7 +1481,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-26" value="查询这里可以考虑两个场景&lt;br style=&quot;font-size: 14px;&quot;&gt;1. end-start 的范围&lt;br style=&quot;font-size: 14px;&quot;&gt;2. end 的点是不是落在了最近7天内" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="14300" width="220" height="90" as="geometry" />
+          <mxGeometry x="270" y="14300" width="260" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

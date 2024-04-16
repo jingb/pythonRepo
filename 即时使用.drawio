@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T07:34:41.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OdK70T-49-uIrSQvGliW" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T04:19:34.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="shiEcINDC2mst38vSq1W" version="24.2.1" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -657,8 +657,10 @@
             <mxPoint x="120" y="6245" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xNweWu5RZ_i7wBBOCWkI-99" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="xNweWu5RZ_i7wBBOCWkI-85" target="xNweWu5RZ_i7wBBOCWkI-97" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xNweWu5RZ_i7wBBOCWkI-99" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xNweWu5RZ_i7wBBOCWkI-85" target="yFa-OLI2tS6S7M9V0sO0-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="6390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xNweWu5RZ_i7wBBOCWkI-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="xNweWu5RZ_i7wBBOCWkI-85" target="xNweWu5RZ_i7wBBOCWkI-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -682,10 +684,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xNweWu5RZ_i7wBBOCWkI-97" value="vm集群1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="390" y="6370" width="120" height="60" as="geometry" />
+          <mxGeometry x="571.25" y="6410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xNweWu5RZ_i7wBBOCWkI-98" value="……" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="390" y="6440" width="120" height="60" as="geometry" />
+          <mxGeometry x="495" y="6590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xNweWu5RZ_i7wBBOCWkI-102" value="根据从哪个topic消费路由至不同的tsdb集群，灵活切换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="96.69" y="6170" width="213" height="80" as="geometry" />
@@ -1482,6 +1484,12 @@
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-26" value="查询这里可以考虑两个场景&lt;br style=&quot;font-size: 14px;&quot;&gt;1. end-start 的范围&lt;br style=&quot;font-size: 14px;&quot;&gt;2. end 的点是不是落在了最近7天内" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="270" y="14300" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yFa-OLI2tS6S7M9V0sO0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yFa-OLI2tS6S7M9V0sO0-1" target="xNweWu5RZ_i7wBBOCWkI-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFa-OLI2tS6S7M9V0sO0-1" value="vmagent(可选)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="380.63" y="6410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

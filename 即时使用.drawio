@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T04:19:34.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="shiEcINDC2mst38vSq1W" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T11:55:18.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="iE8-rNkbH-6B4J5MSvWI" version="24.2.5" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1399,39 +1399,39 @@
         <mxCell id="dkYyeRdaX6rNbgIDdC2O-2" value="mongodb" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-299" y="10070" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-1" value="最近7天内数据&lt;br style=&quot;font-size: 14px;&quot;&gt;vmstorage集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-259.5" y="14110" width="199" height="80" as="geometry" />
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-1" value="最近30天内数据&lt;br style=&quot;font-size: 14px;&quot;&gt;vmstorage集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-388" y="14090" width="199" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;（注意同样包含最近7天内的降精度数据）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="116.87" y="14130" width="233.13" height="80" as="geometry" />
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;（注意同样包含最近30天内的降精度数据）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-18.129999999999995" y="14130" width="233.13" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-3" target="zenu8LMiRFT6A2-WjULZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-12" value="顺路写一份过来" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-11" vertex="1" connectable="0">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-12" value="顺路写一份过来&lt;br&gt;在vmagent2流式聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-11" vertex="1" connectable="0">
           <mxGeometry x="0.04" y="-5" relative="1" as="geometry">
             <mxPoint x="-6" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-3" value="vmagent1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="13840" width="130" height="60" as="geometry" />
+          <mxGeometry x="-348.5" y="13820" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-4" target="zenu8LMiRFT6A2-WjULZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-14" value="流式聚合后写入&lt;br&gt;这里各个类型用什么规则，能否通用适配这个类型的指标，是需要研究的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-13" vertex="1" connectable="0">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-14" value="流式聚合后写入&lt;br&gt;这里各个类型用某些规则&lt;br&gt;能否通用适配这个类型的指标，是需要研究的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-13" vertex="1" connectable="0">
           <mxGeometry x="0.1187" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-4" value="vmagent2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="146.11" y="13840" width="130" height="60" as="geometry" />
+          <mxGeometry x="17.610000000000014" y="13820" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-6" value="vminsert" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-210" y="13971" width="120" height="52" as="geometry" />
+          <mxGeometry x="-338.5" y="13951" width="120" height="52" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-7" value="vminsert" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="145.25" y="14010" width="134" height="58" as="geometry" />
+          <mxGeometry x="15.61" y="14000" width="134" height="58" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.448;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-3" target="zenu8LMiRFT6A2-WjULZ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1453,14 +1453,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-10" value="vmselect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-72.33" y="14340" width="199" height="80" as="geometry" />
+          <mxGeometry x="-200.82999999999998" y="14320" width="199" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.428;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-7" target="zenu8LMiRFT6A2-WjULZ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-16" value="写" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-15" vertex="1" connectable="0">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-16" value="5min数据写租户x&lt;br&gt;1h数据写租户y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-15" vertex="1" connectable="0">
           <mxGeometry x="0.0807" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-9" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-18" target="zenu8LMiRFT6A2-WjULZ-3" edge="1">
@@ -1472,7 +1472,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-18" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="13710" width="130" height="40" as="geometry" />
+          <mxGeometry x="-348.5" y="13690" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.55;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-10" target="zenu8LMiRFT6A2-WjULZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1482,13 +1482,13 @@
             <mxPoint x="-23" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-26" value="查询这里可以考虑两个场景&lt;br style=&quot;font-size: 14px;&quot;&gt;1. end-start 的范围&lt;br style=&quot;font-size: 14px;&quot;&gt;2. end 的点是不是落在了最近7天内" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="270" y="14300" width="260" height="100" as="geometry" />
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-26" value="查询这里可以考虑两个场景&lt;br style=&quot;font-size: 14px;&quot;&gt;1. end-start 的范围&lt;br style=&quot;font-size: 14px;&quot;&gt;2. end 的点是不是落在了最近X天内" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="43.629999999999995" y="14270" width="266.06" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yFa-OLI2tS6S7M9V0sO0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yFa-OLI2tS6S7M9V0sO0-1" target="xNweWu5RZ_i7wBBOCWkI-97">
+        <mxCell id="yFa-OLI2tS6S7M9V0sO0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yFa-OLI2tS6S7M9V0sO0-1" target="xNweWu5RZ_i7wBBOCWkI-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yFa-OLI2tS6S7M9V0sO0-1" value="vmagent(可选)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="yFa-OLI2tS6S7M9V0sO0-1" value="vmagent(可选)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="380.63" y="6410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>

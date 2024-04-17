@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T12:00:12.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Zw9XJ_zMItcVVFWlTpVX" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T06:31:18.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xBQ9EAoir9_kDeEbHFoW" version="24.2.5" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1402,13 +1402,13 @@
         <mxCell id="zenu8LMiRFT6A2-WjULZ-1" value="最近30天内数据&lt;br style=&quot;font-size: 14px;&quot;&gt;vmstorage集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-388" y="14090" width="199" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;（注意同样包含最近30天内的降精度数据）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-18.129999999999995" y="14130" width="233.13" height="80" as="geometry" />
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;（注意同样包含最近30天内的降精度数据）&lt;br&gt;&lt;br&gt;dedup.minScrapeInterval=5m" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="14130" width="238.13" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-3" target="zenu8LMiRFT6A2-WjULZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-12" value="顺路写一份过来&lt;br&gt;在vmagent2流式聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-11" vertex="1" connectable="0">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-12" value="顺路写一份过来" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-11" vertex="1" connectable="0">
           <mxGeometry x="0.04" y="-5" relative="1" as="geometry">
             <mxPoint x="-6" y="5" as="offset" />
           </mxGeometry>
@@ -1419,8 +1419,8 @@
         <mxCell id="zenu8LMiRFT6A2-WjULZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-4" target="zenu8LMiRFT6A2-WjULZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-14" value="流式聚合后写入&lt;br&gt;这里各个类型用某些规则&lt;br&gt;能否通用适配这个类型的指标，是需要研究的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-13" vertex="1" connectable="0">
-          <mxGeometry x="0.1187" relative="1" as="geometry">
+        <mxCell id="WJWjRISyc4YIio4Cxum_-31" value="--remoteWrite.streamAggr.dedupInterval=5m" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zenu8LMiRFT6A2-WjULZ-13">
+          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>

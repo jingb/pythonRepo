@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T08:41:03.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Gk5Q-zST0MiLYKU_Ts0k" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T08:46:26.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IUJ2Uv-0RmHvgqe4d-Pf" version="24.2.5" type="github">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1402,7 +1402,7 @@
         <mxCell id="zenu8LMiRFT6A2-WjULZ-1" value="最近30天内数据&lt;br style=&quot;font-size: 14px;&quot;&gt;vmstorage集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-389" y="14120" width="199" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;（注意同样包含最近30天内的降精度数据）&lt;br&gt;dedup.minScrapeInterval=5m" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;（注意同样包含最近30天内的降精度数据）&lt;br style=&quot;font-size: 14px;&quot;&gt;dedup.minScrapeInterval=5m" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-30" y="14130" width="238.13" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-3" target="zenu8LMiRFT6A2-WjULZ-4" edge="1">
@@ -1419,7 +1419,7 @@
         <mxCell id="zenu8LMiRFT6A2-WjULZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-4" target="zenu8LMiRFT6A2-WjULZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJWjRISyc4YIio4Cxum_-31" value="--remoteWrite.streamAggr.dedupInterval=5m" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zenu8LMiRFT6A2-WjULZ-13" vertex="1" connectable="0">
+        <mxCell id="WJWjRISyc4YIio4Cxum_-31" value="--remoteWrite.streamAggr.dedupInterval=5m" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-13" vertex="1" connectable="0">
           <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1452,13 +1452,13 @@
         <mxCell id="zenu8LMiRFT6A2-WjULZ-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-10" target="zenu8LMiRFT6A2-WjULZ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-10" value="vmselect&lt;br&gt;&lt;br&gt;dedup.minScrapeInterval=5m" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-10" value="vmselect&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;dedup.minScrapeInterval=5m" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-18.93999999999997" y="14280" width="199" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zenu8LMiRFT6A2-WjULZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.428;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="zenu8LMiRFT6A2-WjULZ-7" target="zenu8LMiRFT6A2-WjULZ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-16" value="5min数据写租户x&lt;br&gt;1h数据写租户y（//todo）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-15" vertex="1" connectable="0">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-16" value="5min数据写租户x&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;1h数据写租户y（做不到因为 dedup.minScrapeInterval 只能填一个值）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="zenu8LMiRFT6A2-WjULZ-15" vertex="1" connectable="0">
           <mxGeometry x="0.0807" y="1" relative="1" as="geometry">
             <mxPoint x="-9" y="-5" as="offset" />
           </mxGeometry>
@@ -1479,7 +1479,7 @@
             <mxPoint x="-288" y="14330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zenu8LMiRFT6A2-WjULZ-26" value="查询这里可以考虑两个场景&lt;br style=&quot;font-size: 14px;&quot;&gt;1. end-start 的范围&lt;br style=&quot;font-size: 14px;&quot;&gt;2. end 的点是不是落在了最近X天内&lt;br&gt;3. 查不同的集群&amp;nbsp; 指标名已经是不一样的了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="zenu8LMiRFT6A2-WjULZ-26" value="查询这里可以考虑两个场景&lt;br style=&quot;font-size: 14px;&quot;&gt;1. end-start 的范围&lt;br style=&quot;font-size: 14px;&quot;&gt;2. end 的点是不是落在了最近X天内&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 查不同的集群&amp;nbsp; 指标名已经是不一样的了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-490.06" y="14470" width="266.06" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yFa-OLI2tS6S7M9V0sO0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yFa-OLI2tS6S7M9V0sO0-1" target="xNweWu5RZ_i7wBBOCWkI-97" edge="1">
@@ -1488,13 +1488,13 @@
         <mxCell id="yFa-OLI2tS6S7M9V0sO0-1" value="vmagent(可选)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="380.63" y="6410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ITTCbncuroiI0dck1Ihi-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJWjRISyc4YIio4Cxum_-2" target="ITTCbncuroiI0dck1Ihi-1">
+        <mxCell id="ITTCbncuroiI0dck1Ihi-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="WJWjRISyc4YIio4Cxum_-2" target="ITTCbncuroiI0dck1Ihi-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WJWjRISyc4YIio4Cxum_-2" value="tingfeng-server&lt;br&gt;query-server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="WJWjRISyc4YIio4Cxum_-2" value="tingfeng-server&lt;br style=&quot;font-size: 14px;&quot;&gt;query-server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-207.10999999999996" y="14500" width="199" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WJWjRISyc4YIio4Cxum_-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="WJWjRISyc4YIio4Cxum_-2" edge="1">
+        <mxCell id="WJWjRISyc4YIio4Cxum_-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="WJWjRISyc4YIio4Cxum_-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80.89000000000001" y="14370" as="targetPoint" />
           </mxGeometry>

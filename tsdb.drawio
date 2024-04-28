@@ -1,9 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T03:47:35.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="24.2.7" etag="q5znPGc2lu5opP6EcH57" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T03:55:13.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Th6tMfqlRNpoK5CoH_aK" version="24.2.7" type="github">
   <diagram name="第 1 页" id="T7uyHK-B_JqTSwR-4mf9">
-    <mxGraphModel>
+    <mxGraphModel dx="2501" dy="-11975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qLwv4cue99co9azmEMkJ-1" value="最近30天内数据&lt;br style=&quot;font-size: 14px;&quot;&gt;vmstorage集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="14132" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;dedup.minScrapeInterval=5m（没配置）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="14268" width="310" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-5" target="qLwv4cue99co9azmEMkJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-4" value="顺路写一份过来" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qLwv4cue99co9azmEMkJ-3">
+          <mxGeometry x="0.04" y="-5" relative="1" as="geometry">
+            <mxPoint x="-6" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-5" value="96.6&lt;br style=&quot;font-size: 14px;&quot;&gt;vmagent" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-679.5" y="13832" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-8" target="qLwv4cue99co9azmEMkJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-7" value="--remoteWrite.streamAggr.dedupInterval=5m" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qLwv4cue99co9azmEMkJ-6">
+          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-8" value="96.6&lt;br style=&quot;font-size: 14px;&quot;&gt;vmagentBenchmark" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-100.38999999999999" y="13976" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-9" value="vminsert" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-666" y="13988" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-10" value="vminsert" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-104.39" y="14126" width="134" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.448;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-5" target="qLwv4cue99co9azmEMkJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-12" value="写" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qLwv4cue99co9azmEMkJ-11">
+          <mxGeometry x="-0.1313" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.457;exitY=1.032;exitDx=0;exitDy=0;entryX=0.538;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-9" target="qLwv4cue99co9azmEMkJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-14" value="写" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qLwv4cue99co9azmEMkJ-13">
+          <mxGeometry x="-0.0894" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-16" target="qLwv4cue99co9azmEMkJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-16" value="96.6 vmselect&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;dedup.minScrapeInterval=5m（没配置）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-176.86" y="14450" width="278.94" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.428;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-10" target="qLwv4cue99co9azmEMkJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-18" value="5min数据写租户x&lt;br style=&quot;font-size: 14px;&quot;&gt;1h数据写租户y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qLwv4cue99co9azmEMkJ-17">
+          <mxGeometry x="0.0807" y="1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-21" target="qLwv4cue99co9azmEMkJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-20" value="写" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qLwv4cue99co9azmEMkJ-19">
+          <mxGeometry x="-0.1167" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-21" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-679.5" y="13702" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-26" target="qLwv4cue99co9azmEMkJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-619" y="14342" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-24" target="qLwv4cue99co9azmEMkJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-24" value="tingfeng-server&lt;br style=&quot;font-size: 14px;&quot;&gt;query-server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-380.99999999999994" y="14660" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-24" target="qLwv4cue99co9azmEMkJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="64.39000000000001" y="14550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-26" value="vmselect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-717.1099999999999" y="14292" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-27" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;- &#39;--remoteWrite.url=http://vmagentBenchmark:8429/api/v1/write&#39;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - &#39;--remoteWrite.url=http://vminsert.wanyol.com/insert/0/prometheus/&#39;&lt;br style=&quot;font-size: 14px;&quot;&gt;- &#39;--remoteWrite.maxDiskUsagePerURL=5GB,5GB&#39;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-564.39" y="13780" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLwv4cue99co9azmEMkJ-28" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;- &#39;--remoteWrite.url=http://vminsert:8480/insert/1/prometheus/&#39;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;- &#39;--remoteWrite.url=http://vminsert:8480/insert/2/prometheus/&#39;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- &#39;--remoteWrite.streamAggr.dedupInterval=5m,1h&#39;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - &#39;--remoteWrite.maxDiskUsagePerURL=5GB,5GB&#39;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="90" y="13960" width="400" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

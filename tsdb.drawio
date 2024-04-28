@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T03:55:13.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Th6tMfqlRNpoK5CoH_aK" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T03:55:30.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="G3l27yCt1fw3rX6uwCS9" version="24.2.7" type="github">
   <diagram name="第 1 页" id="T7uyHK-B_JqTSwR-4mf9">
     <mxGraphModel dx="2501" dy="-11975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,11 +23,6 @@
         </mxCell>
         <mxCell id="qLwv4cue99co9azmEMkJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-8" target="qLwv4cue99co9azmEMkJ-10">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qLwv4cue99co9azmEMkJ-7" value="--remoteWrite.streamAggr.dedupInterval=5m" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qLwv4cue99co9azmEMkJ-6">
-          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="qLwv4cue99co9azmEMkJ-8" value="96.6&lt;br style=&quot;font-size: 14px;&quot;&gt;vmagentBenchmark" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-100.38999999999999" y="13976" width="130" height="60" as="geometry" />
@@ -102,7 +97,7 @@
           <mxGeometry x="-564.39" y="13780" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qLwv4cue99co9azmEMkJ-28" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;- &#39;--remoteWrite.url=http://vminsert:8480/insert/1/prometheus/&#39;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;- &#39;--remoteWrite.url=http://vminsert:8480/insert/2/prometheus/&#39;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- &#39;--remoteWrite.streamAggr.dedupInterval=5m,1h&#39;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - &#39;--remoteWrite.maxDiskUsagePerURL=5GB,5GB&#39;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="90" y="13960" width="400" height="80" as="geometry" />
+          <mxGeometry y="14040" width="400" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

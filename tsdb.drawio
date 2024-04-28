@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T03:55:30.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="G3l27yCt1fw3rX6uwCS9" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T03:55:58.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TDAPVMxEWy3gmSj3Bp8Y" version="24.2.7" type="github">
   <diagram name="第 1 页" id="T7uyHK-B_JqTSwR-4mf9">
     <mxGraphModel dx="2501" dy="-11975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="qLwv4cue99co9azmEMkJ-1" value="最近30天内数据&lt;br style=&quot;font-size: 14px;&quot;&gt;vmstorage集群" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-720" y="14132" width="199" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qLwv4cue99co9azmEMkJ-2" value="降精度数据vmstorage集群&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;dedup.minScrapeInterval=5m（没配置）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="qLwv4cue99co9azmEMkJ-2" value="降精度数据vmstorage集群 180d&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;dedup.minScrapeInterval=5m（没配置）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-160" y="14268" width="310" height="104" as="geometry" />
         </mxCell>
         <mxCell id="qLwv4cue99co9azmEMkJ-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-5" target="qLwv4cue99co9azmEMkJ-8">
@@ -21,7 +21,7 @@
         <mxCell id="qLwv4cue99co9azmEMkJ-5" value="96.6&lt;br style=&quot;font-size: 14px;&quot;&gt;vmagent" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-679.5" y="13832" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qLwv4cue99co9azmEMkJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-8" target="qLwv4cue99co9azmEMkJ-10">
+        <mxCell id="qLwv4cue99co9azmEMkJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.465;exitY=0.9;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;exitPerimeter=0;" edge="1" parent="1" source="qLwv4cue99co9azmEMkJ-8" target="qLwv4cue99co9azmEMkJ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qLwv4cue99co9azmEMkJ-8" value="96.6&lt;br style=&quot;font-size: 14px;&quot;&gt;vmagentBenchmark" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">

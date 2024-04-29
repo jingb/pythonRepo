@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T01:28:39.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VK4z-sLU95kIt1IWjr8P" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T07:37:40.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5sy9HOiR8IW5C4_kiA_U" version="24.2.7" type="github">
   <diagram name="第 1 页" id="T7uyHK-B_JqTSwR-4mf9">
-    <mxGraphModel dx="2501" dy="-12095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="-11975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,7 +182,7 @@
           <mxGeometry x="602.8900000000001" y="14332" width="199" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qLwv4cue99co9azmEMkJ-54" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;-remoteWrite.url=http://vminsert.wanyol.com/insert/1/prometheus&amp;nbsp; -remoteWrite.urlRelabelConfig=relabelCfg.yml&amp;nbsp;&lt;/div&gt;&lt;div&gt;-remoteWrite.url=http://vminsert-downsample.wanyol.com/insert/0/prometheus&amp;nbsp; -remoteWrite.urlRelabelConfig=relabelCsp.yml&amp;nbsp;&lt;/div&gt;&lt;div&gt;-remoteWrite.url=http://vminsert-downsample.wanyol.com/insert/1/prometheus&amp;nbsp; -remoteWrite.urlRelabelConfig=relabelCustom.yml&amp;nbsp;&lt;/div&gt;&lt;div&gt;-remoteWrite.url=http://vminsert-downsample.wanyol.com/insert/2/prometheus&amp;nbsp; -remoteWrite.urlRelabelConfig=relabelGateway.yml&amp;nbsp;&lt;/div&gt;&lt;div&gt;-remoteWrite.url=http://vminsert-downsample.wanyol.com/insert/3/prometheus&amp;nbsp; -remoteWrite.urlRelabelConfig=relabelCsp.yml&amp;nbsp;&lt;/div&gt;&lt;div&gt;-remoteWrite.streamAggr.dedupInterval=30s,5m,5m,5m,1h&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="810" y="13901" width="924.39" height="210" as="geometry" />
+          <mxGeometry x="820" y="13811" width="1030" height="309" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T11:47:25.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dlHD9_yjBgJMCQ7Makvg" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T02:19:13.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="P43htLZWj9ywdqpQ6NtX" version="24.4.9" type="github">
   <diagram name="Page-1" id="fc2ac565-0d4e-3f0d-88b0-a54af1634ed7">
     <mxGraphModel dx="3427.5" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -80,6 +80,38 @@
           <mxGeometry x="635" y="750" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RgnSEe2fGSX4Xo0er4Zq-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RgnSEe2fGSX4Xo0er4Zq-17" target="RgnSEe2fGSX4Xo0er4Zq-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-30" value="consumer&lt;div&gt;只会消费某个topic的&lt;br&gt;某个partition&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1230" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-31" value="&lt;div&gt;单个channel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="1230" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-32" value="goroutine1&lt;br&gt;算hash 攒批次 发远端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="1140" width="137.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-33" value="&lt;div&gt;goroutine2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611.25" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-35" value="goroutineN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611.25" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.514;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RgnSEe2fGSX4Xo0er4Zq-30" target="RgnSEe2fGSX4Xo0er4Zq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-39" value="反序列化之后写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RgnSEe2fGSX4Xo0er4Zq-38">
+          <mxGeometry x="0.0128" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RgnSEe2fGSX4Xo0er4Zq-32" target="RgnSEe2fGSX4Xo0er4Zq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.022;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RgnSEe2fGSX4Xo0er4Zq-33" target="RgnSEe2fGSX4Xo0er4Zq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RgnSEe2fGSX4Xo0er4Zq-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.771;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RgnSEe2fGSX4Xo0er4Zq-35" target="RgnSEe2fGSX4Xo0er4Zq-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

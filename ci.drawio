@@ -43,20 +43,32 @@
         <mxCell id="1zjkDG3cbW4BCFfmRe7E-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1zjkDG3cbW4BCFfmRe7E-1" target="1zjkDG3cbW4BCFfmRe7E-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1zjkDG3cbW4BCFfmRe7E-1" value="docker 容器&lt;br&gt;调用CI流水线接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="760" width="130" height="60" as="geometry" />
+        <mxCell id="1zjkDG3cbW4BCFfmRe7E-1" value="argo 起始节点&lt;br&gt;调用CI流水线接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="760" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zjkDG3cbW4BCFfmRe7E-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1zjkDG3cbW4BCFfmRe7E-2" target="1zjkDG3cbW4BCFfmRe7E-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1zjkDG3cbW4BCFfmRe7E-2" value="CI流水线1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="670" width="130" height="60" as="geometry" />
+          <mxGeometry x="-80" y="670" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zjkDG3cbW4BCFfmRe7E-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1zjkDG3cbW4BCFfmRe7E-4" target="1zjkDG3cbW4BCFfmRe7E-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1zjkDG3cbW4BCFfmRe7E-4" value="CI流水线2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="760" width="130" height="60" as="geometry" />
+          <mxGeometry x="-80" y="760" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zjkDG3cbW4BCFfmRe7E-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1zjkDG3cbW4BCFfmRe7E-5" target="1zjkDG3cbW4BCFfmRe7E-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1zjkDG3cbW4BCFfmRe7E-5" value="CI流水线3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="850" width="130" height="60" as="geometry" />
+          <mxGeometry x="-80" y="850" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1zjkDG3cbW4BCFfmRe7E-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1zjkDG3cbW4BCFfmRe7E-1" target="1zjkDG3cbW4BCFfmRe7E-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1zjkDG3cbW4BCFfmRe7E-11" value="汇聚点&lt;br&gt;argo 节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="760" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

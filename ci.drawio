@@ -106,7 +106,7 @@
           <mxGeometry x="-38.5" y="1020" width="279" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qzZaRjEieVuKJOYZ35N4-3" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;it代理服务&lt;br&gt;1. 能访问墙外&lt;br&gt;2. 会根据过来的流量判断是不是需要走国际出口&lt;br&gt;3. 带宽比较小300Mb，而且it很多自己的服务器也在用，非持续集成独占" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="1490" width="220" height="90" as="geometry" />
+          <mxGeometry x="-240" y="1490" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qzZaRjEieVuKJOYZ35N4-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzZaRjEieVuKJOYZ35N4-4" target="qzZaRjEieVuKJOYZ35N4-3">
           <mxGeometry relative="1" as="geometry" />

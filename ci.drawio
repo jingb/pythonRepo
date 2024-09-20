@@ -112,7 +112,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qzZaRjEieVuKJOYZ35N4-9" value="除了少部分目的ip绝大部分流量都会直接劫持然后转过去" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-498" y="1480" width="170" height="20" as="geometry" />
+          <mxGeometry x="-480" y="1490" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qzZaRjEieVuKJOYZ35N4-13" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-710" y="1370" width="170" height="160" as="geometry" />

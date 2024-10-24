@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="24.7.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="第 1 页" id="W4AuCiLOHfoQ3W9QX4Dh">
     <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,38 +105,76 @@
         <mxCell id="p6VveLF5YnCwhBmsVanH-19" value="制品服务&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;给相关制品打oem标签&lt;br&gt;调用gitlab服务给相关分支生成oem的tag&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-38.5" y="1020" width="279" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-3" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;it代理服务&lt;br&gt;1. 能访问墙外&lt;br&gt;2. 会根据过来的流量判断是不是需要走国际出口&lt;br&gt;3. 带宽比较小300Mb，而且it很多自己的服务器也在用，非持续集成独占" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-3" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;it代理服务&lt;br&gt;1. 能访问墙外&lt;br&gt;2. 会根据过来的流量判断是不是需要走国际出口&lt;br&gt;3. 带宽比较小300Mb，而且it很多自己的服务器也在用，非持续集成独占" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-240" y="1490" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzZaRjEieVuKJOYZ35N4-4" target="qzZaRjEieVuKJOYZ35N4-3">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qzZaRjEieVuKJOYZ35N4-4" target="qzZaRjEieVuKJOYZ35N4-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-9" value="除了少部分目的ip绝大部分流量都会直接劫持然后转过去" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-9" value="除了少部分目的ip绝大部分流量都会直接劫持然后转过去" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-480" y="1490" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-13" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-13" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-710" y="1370" width="170" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22worker%E6%9C%BA%E5%99%A81%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-650%22%20y%3D%221370%22%20width%3D%22120%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qzZaRjEieVuKJOYZ35N4-13">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22worker%E6%9C%BA%E5%99%A81%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-650%22%20y%3D%221370%22%20width%3D%22120%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="qzZaRjEieVuKJOYZ35N4-13" vertex="1">
           <mxGeometry width="170" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-4" value="redsocks代理&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qzZaRjEieVuKJOYZ35N4-13">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-4" value="redsocks代理&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;" parent="qzZaRjEieVuKJOYZ35N4-13" vertex="1">
           <mxGeometry x="80" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-5" value="worker机器1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qzZaRjEieVuKJOYZ35N4-13">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-5" value="worker机器1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qzZaRjEieVuKJOYZ35N4-13" vertex="1">
           <mxGeometry x="40" y="60" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-15" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-15" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-710" y="1560" width="170" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-16" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22worker%E6%9C%BA%E5%99%A81%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-650%22%20y%3D%221370%22%20width%3D%22120%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qzZaRjEieVuKJOYZ35N4-15">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-16" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22worker%E6%9C%BA%E5%99%A81%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-650%22%20y%3D%221370%22%20width%3D%22120%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="qzZaRjEieVuKJOYZ35N4-15" vertex="1">
           <mxGeometry width="170" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-17" value="redsocks代理&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qzZaRjEieVuKJOYZ35N4-15">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-17" value="redsocks代理&lt;br&gt;客户端" style="rounded=0;whiteSpace=wrap;html=1;" parent="qzZaRjEieVuKJOYZ35N4-15" vertex="1">
           <mxGeometry x="80" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qzZaRjEieVuKJOYZ35N4-18" value="worker机器2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qzZaRjEieVuKJOYZ35N4-15">
+        <mxCell id="qzZaRjEieVuKJOYZ35N4-18" value="worker机器2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qzZaRjEieVuKJOYZ35N4-15" vertex="1">
           <mxGeometry x="40" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPNIPkCn-OSQTKAiYKp3-5" target="fPNIPkCn-OSQTKAiYKp3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-11" value="创建单测任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fPNIPkCn-OSQTKAiYKp3-10">
+          <mxGeometry x="-0.2125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-5" value="流水线单测任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPNIPkCn-OSQTKAiYKp3-6" target="fPNIPkCn-OSQTKAiYKp3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-9" value="生成一个workflow对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fPNIPkCn-OSQTKAiYKp3-8">
+          <mxGeometry x="-0.0636" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPNIPkCn-OSQTKAiYKp3-6" target="fPNIPkCn-OSQTKAiYKp3-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="2110" />
+              <mxPoint x="155" y="2110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-14" value="watch等对应任务的pod跑完" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fPNIPkCn-OSQTKAiYKp3-13">
+          <mxGeometry x="-0.0526" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-6" value="grug后端服务&lt;br&gt;（CI自己维护，go）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fPNIPkCn-OSQTKAiYKp3-7" value="k8s集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1947.5" width="90" height="102.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

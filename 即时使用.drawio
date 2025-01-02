@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T11:13:58.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4dn2uOyOJJSR-ojOLUcv" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
-    <mxGraphModel dx="3088" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1488,7 +1488,7 @@
         <mxCell id="yFa-OLI2tS6S7M9V0sO0-1" value="vmagent(可选)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="380.63" y="6410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ITTCbncuroiI0dck1Ihi-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="WJWjRISyc4YIio4Cxum_-2" target="ITTCbncuroiI0dck1Ihi-1">
+        <mxCell id="ITTCbncuroiI0dck1Ihi-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="WJWjRISyc4YIio4Cxum_-2" target="ITTCbncuroiI0dck1Ihi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WJWjRISyc4YIio4Cxum_-2" value="tingfeng-server&lt;br style=&quot;font-size: 14px;&quot;&gt;query-server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
@@ -1585,8 +1585,104 @@
             <mxPoint x="719.31" y="14390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ITTCbncuroiI0dck1Ihi-1" value="vmselect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="ITTCbncuroiI0dck1Ihi-1" value="vmselect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-386.10999999999996" y="14280" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-1" target="2qH9abUY7MUDDM1kIAn_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-1" target="2qH9abUY7MUDDM1kIAn_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-1" value="172.16.54.107" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420.53000000000003" y="15145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-2" target="2qH9abUY7MUDDM1kIAn_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-6" value="22 ssh流量&lt;br&gt;仅ng日志有客户端ip，&lt;br&gt;无法知道哪个工号访问了哪个仓库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-5">
+          <mxGeometry x="-0.2586" y="1" relative="1" as="geometry">
+            <mxPoint x="12" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-2" value="nginx1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-204.67999999999998" y="15060" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-3" target="2qH9abUY7MUDDM1kIAn_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-8" value="80 http流量&lt;br&gt;xff头有客户端ip，&lt;br&gt;且能知道哪个账号访问了什么仓库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-7">
+          <mxGeometry x="-0.1434" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-3" value="nginx2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-207.10999999999999" y="15247" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-4" value="gitlab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192.59000000000003" y="15147" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-12" target="2qH9abUY7MUDDM1kIAn_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-14" value="ssh及http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-13">
+          <mxGeometry x="-0.1311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-12" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-649.8199999999999" y="15152.5" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-17" target="2qH9abUY7MUDDM1kIAn_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-17" target="2qH9abUY7MUDDM1kIAn_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-17" value="172.16.54.107" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420.53000000000003" y="15535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-20" target="2qH9abUY7MUDDM1kIAn_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-30" value="4层流量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-29">
+          <mxGeometry x="-0.1081" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-20" value="nginx1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-218.49999999999997" y="15430" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-23" target="2qH9abUY7MUDDM1kIAn_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-22" value="80 http流量&lt;br&gt;xff头有客户端ip，&lt;br&gt;且能知道哪个账号访问了什么仓库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-21">
+          <mxGeometry x="-0.1434" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-23" value="nginx2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-207.10999999999999" y="15637" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-24" value="gitlab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260.63" y="15580" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-27" target="2qH9abUY7MUDDM1kIAn_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-26" value="ssh及http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-25">
+          <mxGeometry x="-0.1311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-27" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-649.8199999999999" y="15542.5" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-28" target="2qH9abUY7MUDDM1kIAn_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-28" value="nlb集群&lt;br&gt;toa协议能把客户端ip存到tcp头里面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53.5" y="15460" width="133" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

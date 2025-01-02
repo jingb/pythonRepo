@@ -1697,6 +1697,41 @@
         <mxCell id="2qH9abUY7MUDDM1kIAn_-34" value="10.238.255.17&lt;br&gt;NLB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-187.10999999999999" y="15130" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-39" target="2qH9abUY7MUDDM1kIAn_-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-54" value="http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-53">
+          <mxGeometry x="-0.1753" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-39" value="新nlb独占集群&lt;br&gt;硬件防火墙&lt;br&gt;带toa支持" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-455.00000000000006" y="15730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-46" value="gitlab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-198.6" y="15730" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-49" target="2qH9abUY7MUDDM1kIAn_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-48" value="ssh及http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-47">
+          <mxGeometry x="-0.1311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-49" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-656.2099999999999" y="15737.5" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-39" target="2qH9abUY7MUDDM1kIAn_-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127.11" y="15682" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-52" value="ssh" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-50">
+          <mxGeometry x="-0.3556" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

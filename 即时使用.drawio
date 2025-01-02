@@ -1665,7 +1665,7 @@
           <mxGeometry x="-207.10999999999999" y="15637" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-24" value="gitlab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260.63" y="15580" width="105" height="50" as="geometry" />
+          <mxGeometry x="204.69" y="15572.13" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-27" target="2qH9abUY7MUDDM1kIAn_-17">
           <mxGeometry relative="1" as="geometry" />
@@ -1682,7 +1682,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-28" value="nlb集群&lt;br&gt;toa协议能把客户端ip存到tcp头里面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="53.5" y="15460" width="133" height="60" as="geometry" />
+          <mxGeometry x="-2.4399999999999977" y="15452.13" width="133" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

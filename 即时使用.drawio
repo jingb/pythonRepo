@@ -1595,32 +1595,42 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-1" value="172.16.54.107" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-420.53000000000003" y="15145" width="120" height="60" as="geometry" />
+          <mxGeometry x="-558.5" y="15138.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2qH9abUY7MUDDM1kIAn_-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-2" target="2qH9abUY7MUDDM1kIAn_-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-34" target="2qH9abUY7MUDDM1kIAn_-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="15030" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-6" value="22 ssh流量&lt;br&gt;仅ng日志有客户端ip，&lt;br&gt;无法知道哪个工号访问了哪个仓库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-5">
           <mxGeometry x="-0.2586" y="1" relative="1" as="geometry">
-            <mxPoint x="12" y="15" as="offset" />
+            <mxPoint x="32" y="-37" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2qH9abUY7MUDDM1kIAn_-2" value="nginx1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-204.67999999999998" y="15060" width="105" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2qH9abUY7MUDDM1kIAn_-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-3" target="2qH9abUY7MUDDM1kIAn_-4">
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-2" target="2qH9abUY7MUDDM1kIAn_-34">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-2" value="nginx1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-371.12" y="15053.5" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-34" target="2qH9abUY7MUDDM1kIAn_-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="15280" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-8" value="80 http流量&lt;br&gt;xff头有客户端ip，&lt;br&gt;且能知道哪个账号访问了什么仓库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2qH9abUY7MUDDM1kIAn_-7">
           <mxGeometry x="-0.1434" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="15" y="36" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-3" target="2qH9abUY7MUDDM1kIAn_-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-3" value="nginx2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-207.10999999999999" y="15247" width="105" height="50" as="geometry" />
+          <mxGeometry x="-371.12" y="15240.5" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-4" value="gitlab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="192.59000000000003" y="15147" width="105" height="50" as="geometry" />
+          <mxGeometry x="187.50000000000003" y="15160" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-12" target="2qH9abUY7MUDDM1kIAn_-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1631,7 +1641,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-12" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-649.8199999999999" y="15152.5" width="70" height="45" as="geometry" />
+          <mxGeometry x="-753.3199999999999" y="15146" width="70" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-17" target="2qH9abUY7MUDDM1kIAn_-20">
           <mxGeometry relative="1" as="geometry" />
@@ -1640,7 +1650,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-17" value="172.16.54.107" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-412.33000000000004" y="15485" width="120" height="60" as="geometry" />
+          <mxGeometry x="-455.00000000000006" y="15485" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2qH9abUY7MUDDM1kIAn_-20" target="2qH9abUY7MUDDM1kIAn_-28">
           <mxGeometry relative="1" as="geometry" />
@@ -1683,6 +1693,9 @@
         </mxCell>
         <mxCell id="2qH9abUY7MUDDM1kIAn_-28" value="新增nlb集群&lt;br&gt;toa协议能把客户端ip存到tcp头里面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5.760000000000002" y="15402.13" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qH9abUY7MUDDM1kIAn_-34" value="10.238.255.17&lt;br&gt;NLB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-187.10999999999999" y="15130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

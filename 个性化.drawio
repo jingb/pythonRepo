@@ -46,7 +46,7 @@
         <mxCell id="90wLf6iU2kTBtkmCEFJq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="90wLf6iU2kTBtkmCEFJq-5" target="90wLf6iU2kTBtkmCEFJq-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90wLf6iU2kTBtkmCEFJq-12" value="某次生成画像任务id&lt;br&gt;比较大二进制文件&amp;nbsp; http分片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90wLf6iU2kTBtkmCEFJq-11">
+        <mxCell id="90wLf6iU2kTBtkmCEFJq-12" value="某次生成画像任务id&lt;br&gt;大制文件&amp;nbsp; http分片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90wLf6iU2kTBtkmCEFJq-11">
           <mxGeometry x="-0.131" y="-2" relative="1" as="geometry">
             <mxPoint x="-9" y="1" as="offset" />
           </mxGeometry>
@@ -55,10 +55,10 @@
           <mxGeometry x="-250" y="170" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="90wLf6iU2kTBtkmCEFJq-6" value="算法模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="520" width="100" height="55" as="geometry" />
+          <mxGeometry x="550" y="465" width="94" height="55" as="geometry" />
         </mxCell>
         <mxCell id="90wLf6iU2kTBtkmCEFJq-7" value="对象存储S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="482.5" width="100" height="50" as="geometry" />
+          <mxGeometry y="465" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="90wLf6iU2kTBtkmCEFJq-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="90wLf6iU2kTBtkmCEFJq-13" target="90wLf6iU2kTBtkmCEFJq-7">
           <mxGeometry relative="1" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry x="100" y="240" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="90wLf6iU2kTBtkmCEFJq-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="240" width="110" height="40" as="geometry" />
+          <mxGeometry x="230" y="240" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

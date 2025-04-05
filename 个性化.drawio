@@ -55,7 +55,7 @@
           <mxGeometry x="-250" y="170" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="90wLf6iU2kTBtkmCEFJq-6" value="算法模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="465" width="94" height="55" as="geometry" />
+          <mxGeometry x="410" y="493.48" width="94" height="55" as="geometry" />
         </mxCell>
         <mxCell id="90wLf6iU2kTBtkmCEFJq-7" value="对象存储S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="498.48" width="100" height="50" as="geometry" />

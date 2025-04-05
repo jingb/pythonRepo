@@ -52,7 +52,7 @@
         <mxCell id="imzAhuGTkj68UniixFWX-5" value="数据库" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="39.379999999999995" y="730" width="171.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="imzAhuGTkj68UniixFWX-7" value="实时查询&lt;br&gt;外部依赖的数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="imzAhuGTkj68UniixFWX-7" value="并发查询&lt;br&gt;外部依赖的数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="290" y="150" width="172.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="imzAhuGTkj68UniixFWX-10" value="小布助手" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -71,7 +71,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="imzAhuGTkj68UniixFWX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="imzAhuGTkj68UniixFWX-14" target="imzAhuGTkj68UniixFWX-19">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="540" />
+              <mxPoint x="715" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="imzAhuGTkj68UniixFWX-14" value="聚合端侧及云侧数据&lt;br&gt;统一格式化数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="260" y="450" width="270" height="60" as="geometry" />
@@ -97,6 +102,9 @@
           <mxGeometry x="-0.1472" relative="1" as="geometry">
             <mxPoint x="9" y="25" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="imzAhuGTkj68UniixFWX-32" value="生成画像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

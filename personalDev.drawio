@@ -27,26 +27,43 @@
         <mxCell id="maV9hu9B-Oq1pYv03Z-j-5" value="odin网关&lt;br&gt;personal-ai-deployment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="190" width="160" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="maV9hu9B-Oq1pYv03Z-j-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="maV9hu9B-Oq1pYv03Z-j-7" target="maV9hu9B-Oq1pYv03Z-j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="maV9hu9B-Oq1pYv03Z-j-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.894;exitY=1.02;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="maV9hu9B-Oq1pYv03Z-j-7" target="maV9hu9B-Oq1pYv03Z-j-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="maV9hu9B-Oq1pYv03Z-j-7" value="内网网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="330" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="maV9hu9B-Oq1pYv03Z-j-10" value="记忆顾问" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="470" width="100" height="50" as="geometry" />
+          <mxGeometry x="75" y="490" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="maV9hu9B-Oq1pYv03Z-j-11" value="记忆整理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="192.5" y="470" width="115" height="50" as="geometry" />
+          <mxGeometry x="187.5" y="490" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="maV9hu9B-Oq1pYv03Z-j-12" value="关联记忆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="470" width="100" height="50" as="geometry" />
+          <mxGeometry x="315" y="490" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="maV9hu9B-Oq1pYv03Z-j-13" value="记忆合集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="470" width="100" height="50" as="geometry" />
+          <mxGeometry x="425" y="490" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="maV9hu9B-Oq1pYv03Z-j-14" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;odin-inference-cn.allawntech.com&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span data-comment-guid=&quot;comment-kPgM4mOFd5TCmoWD&quot; class=&quot;ql-author-7945 ql-commented ql-commented-background&quot;&gt;举例域名 &lt;br&gt;odin-inference-cn.allawntech.com&lt;br&gt;&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;personal-inference-in.allawntech.com&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;&quot; class=&quot;ql-author-7945&quot;&gt;personal-inference-in.allawntech.com&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="130" width="370" height="50" as="geometry" />
+          <mxGeometry x="-250" y="120" width="370" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="maV9hu9B-Oq1pYv03Z-j-15" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;odin-inference-cn.allawntech.com&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span data-comment-guid=&quot;comment-kPgM4mOFd5TCmoWD&quot; class=&quot;ql-author-7945 ql-commented ql-commented-background&quot;&gt;举例域名 &lt;br&gt;odin-inference-cn.allawntech.com&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="260" width="370" height="50" as="geometry" />
+        <mxCell id="maV9hu9B-Oq1pYv03Z-j-15" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;odin-inference-cn.allawntech.com&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span data-comment-guid=&quot;comment-kPgM4mOFd5TCmoWD&quot; class=&quot;ql-author-7945 ql-commented ql-commented-background&quot;&gt;举例域名&amp;nbsp;&lt;br&gt;&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;odin-pre-service.oppo.local&amp;quot;]]&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;&quot; class=&quot;ql-author-7945&quot;&gt;&lt;font color=&quot;#494949&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;odin-pre-service.oppo.local&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#494949&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;ai-memory-service.oppo.local&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maV9hu9B-Oq1pYv03Z-j-16" value="最好每个区域收敛到一组&lt;br&gt;除了预发分组" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="140" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="maV9hu9B-Oq1pYv03Z-j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.125;exitY=1;exitDx=0;exitDy=0;entryX=0.57;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="maV9hu9B-Oq1pYv03Z-j-7" target="maV9hu9B-Oq1pYv03Z-j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="maV9hu9B-Oq1pYv03Z-j-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="maV9hu9B-Oq1pYv03Z-j-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="486" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

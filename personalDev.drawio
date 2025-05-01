@@ -1,54 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-10-07T06:56:34.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="exy4IizCLpvnSac69ccz" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="0SoZTpLjDrWjceOngaXI">
-    <mxGraphModel dx="1026" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="num4LDJ91VJtmUs3DkA8-1" value="个人成长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-2" value="方法论、书籍" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="num4LDJ91VJtmUs3DkA8-3" target="num4LDJ91VJtmUs3DkA8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-3" value="公域高效搜索&lt;br&gt;优质信息源积累&lt;br&gt;(涉及工具)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="70" width="130" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-4" value="私有的个人知识库&lt;br&gt;搜索回顾及输出用&lt;br&gt;(涉及工具)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="num4LDJ91VJtmUs3DkA8-5" target="num4LDJ91VJtmUs3DkA8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-5" value="工作&lt;br&gt;团队管理&lt;br&gt;职场生存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="num4LDJ91VJtmUs3DkA8-8" target="num4LDJ91VJtmUs3DkA8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-8" value="rss订阅&lt;br&gt;AI过滤、预读&lt;br&gt;(涉及工具)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="210" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="num4LDJ91VJtmUs3DkA8-9" target="num4LDJ91VJtmUs3DkA8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-9" value="阅读理解、笔记、私有化永久存档&lt;br&gt;(涉及工具)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.333;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="num4LDJ91VJtmUs3DkA8-2" target="num4LDJ91VJtmUs3DkA8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.142;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="num4LDJ91VJtmUs3DkA8-4" target="num4LDJ91VJtmUs3DkA8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-18" value="配偶共同成长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="num4LDJ91VJtmUs3DkA8-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.558;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="num4LDJ91VJtmUs3DkA8-18" target="num4LDJ91VJtmUs3DkA8-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

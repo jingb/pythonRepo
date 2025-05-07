@@ -203,12 +203,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="1530" width="116.25" height="50" as="geometry" />
+          <mxGeometry x="-50" y="1490" width="116.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-32" target="7nJvu70s16uf_x4N0x23-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="1640" />
+              <mxPoint x="250" y="1600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -226,22 +226,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-32" value="记忆仓服务端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1570" width="110" height="60" as="geometry" />
+          <mxGeometry x="300" y="1530" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-34" value="记忆仓客户端1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-51.870000000000005" y="1535" width="100" height="40" as="geometry" />
+          <mxGeometry x="-41.870000000000005" y="1495" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="1660" width="117.5" height="50" as="geometry" />
+          <mxGeometry x="-50" y="1620" width="117.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-37" value="记忆仓客户端2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="1665" width="87.5" height="35" as="geometry" />
+          <mxGeometry x="-40" y="1625" width="87.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-42" value="存储&lt;br&gt;db 及 对象存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1570" width="110" height="60" as="geometry" />
+          <mxGeometry x="580" y="1530" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-47" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 后面记忆仓的服务端100%兼容云服务提供的API，历史数据迁移一次，后端的服务切一下就行，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，也不会说需要从头再来" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="195" y="960" width="435" height="110" as="geometry" />
+        <mxCell id="7nJvu70s16uf_x4N0x23-47" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 后面记忆仓的服务端100%兼容云服务提供的API，历史数据迁移一次，后端的服务切一下就行，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，也不会需要从头再来" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="195" y="960" width="495" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

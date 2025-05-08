@@ -169,7 +169,7 @@
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-27" target="7nJvu70s16uf_x4N0x23-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="41.31" y="1934" as="targetPoint" />
+            <mxPoint x="5" y="1874" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-26" value="1. 记忆仓相关接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-25">
@@ -178,24 +178,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-154.94" y="1894" width="116.25" height="50" as="geometry" />
+          <mxGeometry x="-191.25" y="1834" width="116.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-32" value="记忆仓服务端&lt;br&gt;python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="561.31" y="1894" width="110" height="60" as="geometry" />
+          <mxGeometry x="525" y="1834" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-34" value="记忆仓客户端1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-146.81" y="1899" width="100" height="40" as="geometry" />
+          <mxGeometry x="-183.12" y="1839" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-156.19" y="2024" width="117.5" height="50" as="geometry" />
+          <mxGeometry x="-192.5" y="1964" width="117.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-37" value="记忆仓客户端2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-145.51" y="2031.5" width="93.75" height="35" as="geometry" />
+          <mxGeometry x="-181.82" y="1971.5" width="93.75" height="35" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-42" value="存储&lt;br&gt;db 及 对象存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="221.31" y="1720" width="110" height="60" as="geometry" />
+          <mxGeometry x="185" y="1660" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-47" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 如果云上要基于数据做扩展，可以使用自己的存储，把云服务里的历史数据迁移一次，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，不需要从头再来&lt;br&gt;&lt;br&gt;4. 已有的这些推理服务完全不需要动" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="7nJvu70s16uf_x4N0x23-47" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 如果云上要基于数据做扩展，可以使用自己的存储，把云服务里的历史数据迁移一次，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，不需要从头再来&lt;br&gt;&lt;br&gt;4. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;5. 冲突解决的策略完全在端侧做" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="590" y="1210" width="495" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-50" value="云服务sdk&lt;br&gt;定制过打记忆仓自己的域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -234,7 +234,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-53" value="odin 中控&lt;br&gt;java服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="221.31" y="1894" width="110" height="60" as="geometry" />
+          <mxGeometry x="185" y="1834" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-62" value="记忆仓已有的各个服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="1140" width="130" height="60" as="geometry" />

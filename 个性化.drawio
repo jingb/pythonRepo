@@ -239,7 +239,7 @@
         <mxCell id="7nJvu70s16uf_x4N0x23-62" value="记忆仓已有的各个推理服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="1140" width="155" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-68" value="1. 完全自己做，长期可控性高&lt;br&gt;&lt;br&gt;2. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;3. 冲突解决云上自己做，基于乐观锁&lt;br&gt;&lt;br&gt;4. 如果后续有离线编辑的场景，可以支持" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="7nJvu70s16uf_x4N0x23-68" value="1. 完全自己做，长期可控性高&lt;br&gt;&lt;br&gt;2. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;3. 冲突解决云上自己做，基于乐观锁&lt;br&gt;&lt;br&gt;4. 如果后续有离线编辑的场景，可以支持，比较复杂" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="390" y="2010" width="422.5" height="160" as="geometry" />
         </mxCell>
       </root>

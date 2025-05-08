@@ -195,8 +195,8 @@
         <mxCell id="7nJvu70s16uf_x4N0x23-42" value="存储&lt;br&gt;db 及 对象存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="1660" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-47" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 如果云上要基于数据做扩展，可以使用自己的存储，把云服务里的历史数据迁移一次，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，不需要从头再来&lt;br&gt;&lt;br&gt;4. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;5. 冲突解决的策略完全在端侧做" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1210" width="495" height="120" as="geometry" />
+        <mxCell id="7nJvu70s16uf_x4N0x23-47" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 如果云上要基于数据做扩展，可以使用自己的存储，把云服务里的历史数据迁移一次，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，不需要从头再来&lt;br&gt;&lt;br&gt;4. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;5. 冲突解决的策略完全在端侧做&lt;br&gt;&lt;br&gt;6. 如果后续有离线编辑的场景，可以支持" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1090" width="495" height="300" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-50" value="云服务sdk&lt;br&gt;定制过打记忆仓自己的域名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-106.19" y="1500" width="150" height="40" as="geometry" />

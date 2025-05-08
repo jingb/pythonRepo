@@ -242,6 +242,72 @@
         <mxCell id="7nJvu70s16uf_x4N0x23-68" value="1. 完全自己做，长期可控性高&lt;br&gt;&lt;br&gt;2. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;3. 冲突解决云上自己做，基于乐观锁&lt;br&gt;&lt;br&gt;4. 如果后续有离线编辑的场景，可以支持，比较复杂" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="390" y="2010" width="422.5" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-71" target="7nJvu70s16uf_x4N0x23-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2.5" y="2594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-70" value="1. 记忆仓相关接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-69">
+          <mxGeometry x="-0.1419" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-71" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-198.75" y="2554" width="116.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-72" value="记忆仓服务端&lt;br&gt;python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="2554" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-73" value="记忆仓客户端1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190.62" y="2559" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-74" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="2710" width="117.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-75" value="记忆仓客户端2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-189.32" y="2717.5" width="93.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-76" value="云服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="2370" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-85" target="7nJvu70s16uf_x4N0x23-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-78" value="3. 把请求body &lt;br&gt;响应body结构化 调用云服务的API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-77">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-85" target="7nJvu70s16uf_x4N0x23-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-80" value="2. 请求转发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-79">
+          <mxGeometry x="-0.3652" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-85" target="7nJvu70s16uf_x4N0x23-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-82" value="4. 响应结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-81">
+          <mxGeometry x="-0.1145" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-85" target="7nJvu70s16uf_x4N0x23-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-84" value="拉取数据接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-83">
+          <mxGeometry x="0.161" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-85" value="odin 中控&lt;br&gt;java服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="2554" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-86" value="1. 仅存储不是自己的，要扩展的话后面得再自己存，相当于一份数据存了两次&lt;div&gt;&lt;br&gt;2. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;3. 冲突解决云上自己做，基于乐观锁&lt;br&gt;&lt;br&gt;4. 如果后续有离线编辑的场景，可以支持，比较复杂&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2670" width="422.5" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

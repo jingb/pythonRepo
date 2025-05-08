@@ -193,7 +193,7 @@
           <mxGeometry x="-186.82" y="2067.5" width="93.75" height="35" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-42" value="存储&lt;br&gt;db 及 对象存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="1710" width="110" height="60" as="geometry" />
+          <mxGeometry x="180" y="1720" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-47" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 如果云上要基于数据做扩展，可以使用自己的存储，把云服务里的历史数据迁移一次，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，不需要从头再来&lt;br&gt;&lt;br&gt;4. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;5. 冲突解决的策略完全在端侧做&lt;br&gt;&lt;br&gt;6. 如果后续有离线编辑的场景，可以支持" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="590" y="1090" width="495" height="300" as="geometry" />
@@ -233,24 +233,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-53" target="7nJvu70s16uf_x4N0x23-65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="325" y="1894" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-67" value="3.2 把云服务当存储&lt;br&gt;按云服务的API写数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-66">
-          <mxGeometry x="0.1339" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-53" value="odin 中控&lt;br&gt;java服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="1904" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-62" value="记忆仓已有的各个推理服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="1140" width="155" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-65" value="云服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="367.5" y="1710" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-68" value="1. 短期这里服务端很多细节肯定来不及考虑，直接使用云服务成熟的能力&lt;br&gt;&lt;br&gt;2. 如果云上要基于数据做扩展，可以使用自己的存储，把云服务里的历史数据迁移一次，云服务也不会有长期的维护成本&lt;br&gt;&lt;br&gt;3. 现在端侧的同学已经做了的一些事情，不需要从头再来&lt;br&gt;&lt;br&gt;4. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;5. 冲突解决的策略完全在端侧做&lt;br&gt;&lt;br&gt;6. 如果后续有离线编辑的场景，可以支持" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="427.5" y="1980" width="495" height="300" as="geometry" />

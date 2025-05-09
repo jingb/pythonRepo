@@ -305,7 +305,7 @@
         <mxCell id="7nJvu70s16uf_x4N0x23-85" value="odin 中控&lt;br&gt;java服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="177.5" y="2554" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nJvu70s16uf_x4N0x23-86" value="1. 仅存储不是自己的，要扩展的话后面得再自己存，相当于一份数据存了两次&lt;div&gt;&lt;br&gt;2. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;3. 冲突解决云上自己做，基于乐观锁&lt;br&gt;&lt;br&gt;4. 如果后续有离线编辑的场景，可以支持，比较复杂&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="7nJvu70s16uf_x4N0x23-86" value="1. 仅存储不是自己的，要扩展的话后面得再存自己的存储，把数据从云服务拉来回一次&lt;div&gt;&lt;br&gt;2. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;3. 冲突解决云上自己做，基于乐观锁&lt;br&gt;&lt;br&gt;4. 如果后续有离线编辑的场景，可以支持，比较复杂&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="360" y="2670" width="422.5" height="160" as="geometry" />
         </mxCell>
       </root>

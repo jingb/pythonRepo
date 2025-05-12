@@ -308,6 +308,84 @@
         <mxCell id="7nJvu70s16uf_x4N0x23-86" value="1. 仅存储不是自己的，要扩展的话后面得再存自己的存储，把数据从云服务拉来回一次&lt;div&gt;&lt;br&gt;2. 已有的这些推理服务完全不需要动&lt;br&gt;&lt;br&gt;3. 冲突解决云上自己做，基于乐观锁&lt;br&gt;&lt;br&gt;4. 如果后续有离线编辑的场景，可以支持，比较复杂&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="360" y="2670" width="422.5" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.986;exitY=0.86;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-91" target="7nJvu70s16uf_x4N0x23-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-90" value="已有的记忆仓相关推理接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-89">
+          <mxGeometry x="-0.1957" y="3" relative="1" as="geometry">
+            <mxPoint x="19" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200.06" y="3290" width="177.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.835;exitY=0.975;exitDx=0;exitDy=0;entryX=0.028;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-97" target="7nJvu70s16uf_x4N0x23-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="381.88" y="3330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-88" value="数据上行存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-87">
+          <mxGeometry x="-0.1172" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-91" target="7nJvu70s16uf_x4N0x23-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-108" value="推理过程里面服务端已经做了存储&lt;br&gt;客户端数据都是API到服务端拉" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-107">
+          <mxGeometry x="0.0636" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-92" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-101" target="7nJvu70s16uf_x4N0x23-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="376.25" y="3393.73" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-93" value="数据同步接口&lt;br&gt;仅拉取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nJvu70s16uf_x4N0x23-92">
+          <mxGeometry x="0.0694" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-98" value="记忆仓客户端1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190.06" y="3299" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-97" value="云服务sdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-141.25" y="3339" width="92.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-99" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-196.25" y="3478.73" width="173.69" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-100" value="记忆仓客户端2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-186.25" y="3488.73" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-101" value="云服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="368.75" y="3501.23" width="152.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-102" value="云服务sdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150.72" y="3528.73" width="106.31" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-103" value="记忆仓已有的各个推理服务&lt;br&gt;&lt;br&gt;数据以端为主的业务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.75" y="3379" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nJvu70s16uf_x4N0x23-104" target="7nJvu70s16uf_x4N0x23-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-104" value="记忆顾问等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.75" y="3192.5" width="147.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-105" value="小布记忆自有存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="3190" width="107.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-109" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-22.560000000000002" y="3329" width="1070.62" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-111" value="数据主要在云上的业务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="810" y="3190" width="223.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-112" value="数据主要在端上的业务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="3460" width="223.5" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

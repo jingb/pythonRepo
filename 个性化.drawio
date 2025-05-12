@@ -384,7 +384,13 @@
           <mxGeometry x="810" y="3190" width="223.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nJvu70s16uf_x4N0x23-112" value="数据主要在端上的业务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="812.5" y="3460" width="223.5" height="60" as="geometry" />
+          <mxGeometry x="812.5" y="3390" width="223.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-114" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nJvu70s16uf_x4N0x23-115" value="跨设备同步数据主要靠云服务的能力" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="3460" width="220" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

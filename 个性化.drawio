@@ -407,14 +407,14 @@
         <mxCell id="aXV0oyngOTW11Dn-_98c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aXV0oyngOTW11Dn-_98c-9" target="aXV0oyngOTW11Dn-_98c-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-3" value="odin网关&lt;br&gt;ai-deployment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aXV0oyngOTW11Dn-_98c-3" value="odin网关&lt;br&gt;ai-deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="360" y="4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.619;exitY=1.033;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="aXV0oyngOTW11Dn-_98c-4" target="aXV0oyngOTW11Dn-_98c-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-4" value="内网网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="358.77" y="4340" width="120" height="60" as="geometry" />
+        <mxCell id="aXV0oyngOTW11Dn-_98c-4" value="内网接入层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358.77" y="4330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-7" value="示例域名&lt;br&gt;odin-inference-cn.allawntech.com&lt;br&gt;personal-inference-in.allawntech.com" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-273.13" y="4100" width="327.45" height="58" as="geometry" />
@@ -431,17 +431,17 @@
         <mxCell id="aXV0oyngOTW11Dn-_98c-11" value="示例域名&lt;br&gt;odin-pre-service.oppo.local&lt;br&gt;ai-memory-serivce.oppo.local" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="474.37" y="4258" width="203.75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-12" value="记忆仓&lt;br&gt;记忆整理&lt;br&gt;记忆关联&lt;br&gt;记忆合集&lt;br&gt;记忆顾问" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445.23" y="4570" width="150" height="90" as="geometry" />
+        <mxCell id="aXV0oyngOTW11Dn-_98c-12" value="记忆仓&lt;br&gt;记忆整理&lt;br&gt;记忆关联&lt;br&gt;记忆合集&lt;br&gt;记忆顾问" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440.23" y="4480" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-14" value="AI搜索&lt;br&gt;1.0&lt;br&gt;2.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="657.73" y="4570" width="150" height="90" as="geometry" />
+        <mxCell id="aXV0oyngOTW11Dn-_98c-14" value="AI搜索&lt;br&gt;1.0&lt;br&gt;2.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="652.73" y="4480" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.402;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aXV0oyngOTW11Dn-_98c-4" target="aXV0oyngOTW11Dn-_98c-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-16" value="闪记" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-48.75" y="4570" width="115" height="90" as="geometry" />
+        <mxCell id="aXV0oyngOTW11Dn-_98c-16" value="闪记" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53.75" y="4480" width="115" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.402;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aXV0oyngOTW11Dn-_98c-2" target="aXV0oyngOTW11Dn-_98c-16">
           <mxGeometry relative="1" as="geometry" />
@@ -451,8 +451,41 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-19" value="个性化引擎&lt;br&gt;仅推理，不做crud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="229.99999999999997" y="4570" width="150" height="90" as="geometry" />
+        <mxCell id="aXV0oyngOTW11Dn-_98c-19" value="个性化引擎&lt;br&gt;仅推理，不做crud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="224.99999999999997" y="4480" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-21" value="NER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180.63" y="4650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-22" value="OCR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="361.25" y="4650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-23" value="reranker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="523.75" y="4650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-24" value="yolo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="691.2500000000001" y="4650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-25" value="三方api服务&lt;br&gt;（生明团队，后续也要交接过来）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-18.749999999999996" y="4650" width="139.69" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-26" value="公有云doubao" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="4750" width="120.62" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-27" value="公有云gemini" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="185" y="4750" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="4730" as="sourcePoint" />
+            <mxPoint x="940" y="4730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aXV0oyngOTW11Dn-_98c-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="4610" as="sourcePoint" />
+            <mxPoint x="930" y="4610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

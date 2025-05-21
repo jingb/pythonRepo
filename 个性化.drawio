@@ -417,7 +417,7 @@
           <mxGeometry x="358.77" y="4330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-7" value="示例域名&lt;br&gt;odin-inference-cn.allawntech.com&lt;br&gt;personal-inference-in.allawntech.com" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-273.13" y="4100" width="327.45" height="58" as="geometry" />
+          <mxGeometry x="-299.96999999999997" y="4220" width="327.45" height="58" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aXV0oyngOTW11Dn-_98c-3" target="aXV0oyngOTW11Dn-_98c-9">
           <mxGeometry relative="1" as="geometry">

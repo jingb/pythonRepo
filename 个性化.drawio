@@ -407,7 +407,7 @@
         <mxCell id="aXV0oyngOTW11Dn-_98c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aXV0oyngOTW11Dn-_98c-9" target="aXV0oyngOTW11Dn-_98c-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-3" value="odin网关&lt;br&gt;ai-deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="aXV0oyngOTW11Dn-_98c-3" value="odin网关 (&lt;b&gt;java&lt;/b&gt;)&lt;br&gt;ai-deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="360" y="4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.619;exitY=1.033;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="aXV0oyngOTW11Dn-_98c-4" target="aXV0oyngOTW11Dn-_98c-12">

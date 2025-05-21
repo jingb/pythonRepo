@@ -461,10 +461,10 @@
           <mxGeometry x="361.25" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-23" value="reranker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="523.75" y="4650" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-24" value="yolo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="691.2500000000001" y="4650" width="120" height="60" as="geometry" />
+          <mxGeometry x="715.0000000000001" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-25" value="三方api服务&lt;br&gt;（生明团队，后续也要交接过来）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-18.749999999999996" y="4650" width="139.69" height="60" as="geometry" />

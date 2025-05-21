@@ -493,8 +493,8 @@
         <mxCell id="aXV0oyngOTW11Dn-_98c-33" value="GPU算力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-320" y="4500" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-35" value="&lt;b&gt;后续除cv算法部分&lt;br&gt;都要交接过过来&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="4650" width="127.5" height="50" as="geometry" />
+        <mxCell id="aXV0oyngOTW11Dn-_98c-35" value="&lt;b&gt;后续除cv算法部分&lt;br&gt;都要交接过过来&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-233.07" y="4645" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

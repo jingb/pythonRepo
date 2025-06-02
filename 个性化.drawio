@@ -429,7 +429,7 @@
           <mxGeometry x="358.77" y="4250" width="121.23" height="58" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-11" value="示例域名&lt;br&gt;odin-pre-service.oppo.local&lt;br&gt;ai-memory-serivce.oppo.local" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="476.25" y="4280" width="203.75" height="50" as="geometry" />
+          <mxGeometry x="464.69" y="4335" width="203.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-12" value="记忆仓&lt;br&gt;记忆整理&lt;br&gt;记忆关联&lt;br&gt;记忆合集&lt;br&gt;记忆顾问" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370.23" y="4480" width="150" height="90" as="geometry" />
@@ -499,8 +499,8 @@
         <mxCell id="QJ8SlOer0YXrK73opaAi-1" value="交接过来的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-312.5" y="4520" width="102.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QJ8SlOer0YXrK73opaAi-2" value="成本统计&lt;br&gt;指标埋点&lt;br&gt;对接kms加解密服务&lt;div&gt;封装了对象存储服务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="464.69" y="4160" width="226.87" height="70" as="geometry" />
+        <mxCell id="QJ8SlOer0YXrK73opaAi-2" value="职能&lt;br&gt;指标埋点、成本统计&lt;br&gt;对接kms加解密服务&lt;div&gt;封装了对象存储服务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="508.44" y="4140" width="151.56" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJ8SlOer0YXrK73opaAi-5" target="QJ8SlOer0YXrK73opaAi-8">
           <mxGeometry relative="1" as="geometry" />

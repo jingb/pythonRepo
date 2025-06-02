@@ -500,7 +500,7 @@
           <mxGeometry x="-312.5" y="4520" width="102.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-2" value="成本统计&lt;br&gt;指标埋点&lt;br&gt;对接kms加解密服务&lt;div&gt;封装了对象存储服务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="4160" width="226.87" height="70" as="geometry" />
+          <mxGeometry x="464.69" y="4160" width="226.87" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

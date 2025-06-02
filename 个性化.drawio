@@ -545,7 +545,7 @@
           <mxGeometry x="167.50000000000003" y="5670" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-18" value="AI搜索&lt;br&gt;1.0&lt;br&gt;2.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="390" y="5670" width="150" height="90" as="geometry" />
+          <mxGeometry x="380" y="5670" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.402;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJ8SlOer0YXrK73opaAi-12" target="QJ8SlOer0YXrK73opaAi-18">
           <mxGeometry relative="1" as="geometry" />
@@ -558,26 +558,26 @@
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-22" value="没有经过odin网关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJ8SlOer0YXrK73opaAi-21">
           <mxGeometry x="-0.1529" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-10" y="23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-23" value="个性化引擎" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-48.75" y="5670" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-24" value="NER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-83.15" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="-143.15" y="5840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-25" value="OCR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="97.47" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="37.47" y="5840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-26" value="reranker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="276.22" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="216.22000000000003" y="5840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-27" value="yolo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="456.25" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="396.25" y="5840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-28" value="三方api服务&lt;br&gt;（生明团队，后续要交接，含爬虫能力）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-282.53" y="5840" width="139.69" height="60" as="geometry" />
+          <mxGeometry x="-342.53" y="5840" width="139.69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-29" value="公有云doubao" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-278.78" y="5940" width="120.62" height="50" as="geometry" />
@@ -604,13 +604,16 @@
           <mxGeometry x="-435" y="5650" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-35" value="&lt;b&gt;后续除cv算法部分&lt;br&gt;都要交接过过来&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-476.22" y="5880" width="140" height="70" as="geometry" />
+          <mxGeometry x="-520" y="5880" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-36" value="交接过来的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-435" y="5720" width="102.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QJ8SlOer0YXrK73opaAi-37" value="成本统计&lt;br&gt;指标埋点&lt;br&gt;对接kms加解密服务&lt;div&gt;封装了对象存储服务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="313.13000000000005" y="5360" width="226.87" height="70" as="geometry" />
+        <mxCell id="QJ8SlOer0YXrK73opaAi-37" value="&lt;b&gt;生产环境流量逐步切到自己部署的服务&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="5380" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ8SlOer0YXrK73opaAi-41" value="&lt;b&gt;自主看护&lt;br&gt;为容量及可用性负责&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="523.75" y="5840" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

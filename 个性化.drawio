@@ -417,7 +417,7 @@
           <mxGeometry x="358.77" y="4330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-7" value="示例域名&lt;br&gt;odin-inference-cn.allawntech.com&lt;br&gt;personal-inference-in.allawntech.com" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-273.13" y="4210" width="327.45" height="58" as="geometry" />
+          <mxGeometry x="-248.72" y="4200" width="327.45" height="58" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aXV0oyngOTW11Dn-_98c-3" target="aXV0oyngOTW11Dn-_98c-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -432,10 +432,10 @@
           <mxGeometry x="474.37" y="4258" width="203.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-12" value="记忆仓&lt;br&gt;记忆整理&lt;br&gt;记忆关联&lt;br&gt;记忆合集&lt;br&gt;记忆顾问" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="440.23" y="4480" width="150" height="90" as="geometry" />
+          <mxGeometry x="370.23" y="4480" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-14" value="AI搜索&lt;br&gt;1.0&lt;br&gt;2.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="652.73" y="4480" width="150" height="90" as="geometry" />
+          <mxGeometry x="565" y="4480" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.402;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aXV0oyngOTW11Dn-_98c-4" target="aXV0oyngOTW11Dn-_98c-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -451,8 +451,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aXV0oyngOTW11Dn-_98c-19" value="个性化引擎&lt;br&gt;仅推理，不做crud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="224.99999999999997" y="4480" width="150" height="90" as="geometry" />
+        <mxCell id="aXV0oyngOTW11Dn-_98c-19" value="个性化引擎" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="154.99999999999997" y="4480" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aXV0oyngOTW11Dn-_98c-21" value="NER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="180.63" y="4650" width="120" height="60" as="geometry" />

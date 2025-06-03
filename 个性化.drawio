@@ -703,7 +703,7 @@
             <mxRectangle width="99" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BH-wjC77FZph7xM70GYz-21" value="6月" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="BH-wjC77FZph7xM70GYz-18">
+        <mxCell id="BH-wjC77FZph7xM70GYz-21" value="发售前" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="BH-wjC77FZph7xM70GYz-18">
           <mxGeometry x="200" width="103" height="40" as="geometry">
             <mxRectangle width="103" height="40" as="alternateBounds" />
           </mxGeometry>

@@ -565,25 +565,19 @@
           <mxGeometry x="-48.75" y="5670" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-24" value="NER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-143.15" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="-298.15" y="5830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-25" value="OCR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="37.47" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="-117.53" y="5830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-26" value="reranker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="216.22000000000003" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="61.22000000000003" y="5830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-27" value="yolo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="396.25" y="5840" width="120" height="60" as="geometry" />
+          <mxGeometry x="241.25" y="5830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QJ8SlOer0YXrK73opaAi-28" value="三方api服务&lt;br&gt;（生明团队，后续要交接，含爬虫能力）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-342.53" y="5840" width="139.69" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QJ8SlOer0YXrK73opaAi-29" value="公有云doubao" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-278.78" y="5940" width="120.62" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="QJ8SlOer0YXrK73opaAi-30" value="公有云gemini" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-78.78" y="5940" width="115" height="50" as="geometry" />
+        <mxCell id="QJ8SlOer0YXrK73opaAi-29" value="小布助手模型服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-234.96999999999997" y="5950" width="128.78" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -603,9 +597,6 @@
         <mxCell id="QJ8SlOer0YXrK73opaAi-34" value="GPU算力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-435" y="5650" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QJ8SlOer0YXrK73opaAi-35" value="&lt;b&gt;后续除cv算法部分&lt;br&gt;都要交接过过来&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-536.2" y="5890" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-36" value="交接过来的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-435" y="5720" width="102.5" height="40" as="geometry" />
         </mxCell>
@@ -613,7 +604,7 @@
           <mxGeometry x="315" y="5370" width="225" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QJ8SlOer0YXrK73opaAi-41" value="&lt;b&gt;自主看护&lt;br&gt;为容量及可用性负责&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="523.75" y="5840" width="210" height="70" as="geometry" />
+          <mxGeometry x="380" y="5825" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BH-wjC77FZph7xM70GYz-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="550" y="5350" width="302.5" height="250" as="geometry" />

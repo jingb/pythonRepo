@@ -953,7 +953,7 @@
             <mxPoint x="12" y="29" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AO_LuAHGiAMzk_lRloNj-17" value="是否启用推荐" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="AO_LuAHGiAMzk_lRloNj-17" value="是否启用推荐&lt;br&gt;（非深度思考才有推荐）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="430" y="1240" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AO_LuAHGiAMzk_lRloNj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AO_LuAHGiAMzk_lRloNj-16" target="AO_LuAHGiAMzk_lRloNj-17">
@@ -967,8 +967,8 @@
         <mxCell id="AO_LuAHGiAMzk_lRloNj-19" value="解析转换器是否返回内容" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="450" y="1384.75" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AO_LuAHGiAMzk_lRloNj-28" value="否，深度思考解析转换器，&lt;br&gt;比如&amp;lt;ref&amp;gt;&amp;lt;/ref&amp;gt;转[]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1260" width="170" height="40" as="geometry" />
+        <mxCell id="AO_LuAHGiAMzk_lRloNj-28" value="否，深度思考解析转换器，&lt;br&gt;比如&amp;lt;ref&amp;gt;&amp;lt;/ref&amp;gt;转[]&lt;br&gt;&lt;br&gt;思考内容里面的引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1255" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AO_LuAHGiAMzk_lRloNj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AO_LuAHGiAMzk_lRloNj-2" target="AO_LuAHGiAMzk_lRloNj-12">
           <mxGeometry relative="1" as="geometry">
@@ -998,7 +998,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AO_LuAHGiAMzk_lRloNj-40" value="可降级 且 职责归属后端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="1035" y="670" width="160" height="60" as="geometry" />
+          <mxGeometry x="1040" y="670" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AO_LuAHGiAMzk_lRloNj-41" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="737" y="1120" width="123" height="60" as="geometry" />

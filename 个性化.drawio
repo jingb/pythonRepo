@@ -806,13 +806,13 @@
         <mxCell id="cpHzf_mfo00WqcmY2mpf-27" value="直接流式下推关联记忆id列表给端侧，端侧用于展示引用记忆信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="162.5" y="620" width="165" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cpHzf_mfo00WqcmY2mpf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="cpHzf_mfo00WqcmY2mpf-29" target="cpHzf_mfo00WqcmY2mpf-31" edge="1">
+        <mxCell id="cpHzf_mfo00WqcmY2mpf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="cpHzf_mfo00WqcmY2mpf-29" target="cpHzf_mfo00WqcmY2mpf-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cpHzf_mfo00WqcmY2mpf-29" value="对记忆列表进行重组&lt;div&gt;每条记忆按如下规则拆分&lt;div&gt;&lt;div&gt;1、title和summary独立成一条&lt;/div&gt;&lt;div&gt;2、记忆原文按512长度切成多条&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="715" y="515.5" width="210" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="cpHzf_mfo00WqcmY2mpf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="cpHzf_mfo00WqcmY2mpf-31" target="cpHzf_mfo00WqcmY2mpf-33" edge="1">
+        <mxCell id="cpHzf_mfo00WqcmY2mpf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="cpHzf_mfo00WqcmY2mpf-31" target="cpHzf_mfo00WqcmY2mpf-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cpHzf_mfo00WqcmY2mpf-31" value="按重组后新列表长度取整（len/150）多线程调用rerank服务获取拆分后每一块的score" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -942,7 +942,7 @@
         </mxCell>
         <mxCell id="AO_LuAHGiAMzk_lRloNj-21" value="是，多tag解析转换器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AO_LuAHGiAMzk_lRloNj-20">
           <mxGeometry x="-0.2896" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-11" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AO_LuAHGiAMzk_lRloNj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AO_LuAHGiAMzk_lRloNj-17" target="AO_LuAHGiAMzk_lRloNj-19">

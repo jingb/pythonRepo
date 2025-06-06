@@ -1063,7 +1063,7 @@
         <mxCell id="cpHzf_mfo00WqcmY2mpf-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cpHzf_mfo00WqcmY2mpf-107" target="cpHzf_mfo00WqcmY2mpf-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cpHzf_mfo00WqcmY2mpf-107" value="调拒识接口进行安全检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="cpHzf_mfo00WqcmY2mpf-107" value="调拒识接口进行安全检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="302" y="1688.63" width="166" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cpHzf_mfo00WqcmY2mpf-108" value="安检通过，直接流式下推，否则下发code码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">

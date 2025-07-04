@@ -1734,7 +1734,7 @@
         </mxCell>
         <mxCell id="uoUBe5pzC-gzxHNGeKIF-24" value="10. 返回对应用户的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-23">
           <mxGeometry x="0.1051" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="22" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uoUBe5pzC-gzxHNGeKIF-2" value="随身工作台服务端（含便签）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">

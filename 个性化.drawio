@@ -1775,6 +1775,9 @@
             <mxPoint x="48" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-25" value="账号专门给O+互联做了特殊定制&amp;nbsp; 过期时间30d&lt;br&gt;&lt;br&gt;O+互联为用户数据泄露风险变大担责" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="640" width="220" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

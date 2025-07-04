@@ -1691,14 +1691,54 @@
             <mxPoint y="35" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1qxVIIFifNoOPevV5FyQ-2" target="uoUBe5pzC-gzxHNGeKIF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-13" value="5. 拉取数据&lt;br&gt;会带上登陆信息 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-12">
+          <mxGeometry x="0.5529" y="5" relative="1" as="geometry">
+            <mxPoint x="44" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1qxVIIFifNoOPevV5FyQ-2" value="O+互联&lt;br&gt;&lt;br&gt;hulian.com" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uoUBe5pzC-gzxHNGeKIF-1" target="1qxVIIFifNoOPevV5FyQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-17" value="7. 带上登陆信息token请求验证身份" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-16">
+          <mxGeometry x="-0.0826" y="2" relative="1" as="geometry">
+            <mxPoint x="79" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uoUBe5pzC-gzxHNGeKIF-1" target="uoUBe5pzC-gzxHNGeKIF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-22" value="9. 返回对应用户的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-21">
+          <mxGeometry x="-0.235" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uoUBe5pzC-gzxHNGeKIF-1" value="云服务后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-590" y="310" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uoUBe5pzC-gzxHNGeKIF-2" target="uoUBe5pzC-gzxHNGeKIF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-15" value="6.拉取数据&lt;br&gt;带上登陆信息 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-14">
+          <mxGeometry x="0.0372" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="uoUBe5pzC-gzxHNGeKIF-2" target="1qxVIIFifNoOPevV5FyQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-24" value="10. 返回对应用户的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-23">
+          <mxGeometry x="0.1051" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uoUBe5pzC-gzxHNGeKIF-2" value="随身工作台服务端（含便签）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-240" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uoUBe5pzC-gzxHNGeKIF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uoUBe5pzC-gzxHNGeKIF-3" target="1qxVIIFifNoOPevV5FyQ-2">
           <mxGeometry relative="1" as="geometry" />
@@ -1725,6 +1765,14 @@
         <mxCell id="uoUBe5pzC-gzxHNGeKIF-11" value="4. 种 hulian.com自己主域的cookie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-10">
           <mxGeometry x="-0.1544" y="-1" relative="1" as="geometry">
             <mxPoint x="59" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.7;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1qxVIIFifNoOPevV5FyQ-1" target="uoUBe5pzC-gzxHNGeKIF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoUBe5pzC-gzxHNGeKIF-20" value="8. 验证成功，返用户的ssoid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uoUBe5pzC-gzxHNGeKIF-19">
+          <mxGeometry x="-0.0095" y="-3" relative="1" as="geometry">
+            <mxPoint x="48" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -1776,12 +1776,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uoUBe5pzC-gzxHNGeKIF-25" value="账号专门给O+互联做了特殊定制&amp;nbsp; 过期时间30d&lt;br&gt;&lt;br&gt;O+互联为用户数据泄露风险变大担责" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="610" width="280" height="80" as="geometry" />
+          <mxGeometry x="-60" y="650" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-1" value="账号服务端&lt;br&gt;&lt;br&gt;id.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-1" value="账号服务端&lt;br&gt;&lt;br&gt;id.com" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-186" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.892;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.892;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-23" y="1002" as="sourcePoint" />
             <mxPoint x="-50" y="1341.02" as="targetPoint" />
@@ -1793,39 +1793,39 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-3" value="2.登陆校验&lt;br&gt;成功的话种 id.com 的cookie&lt;br&gt;一般情况下失效时间是1d&amp;nbsp; &lt;br&gt;1d之后必须重新登陆&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-2">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-3" value="2.登陆校验&lt;br&gt;成功的话种 id.com 的cookie&lt;br&gt;一般情况下失效时间是1d&amp;nbsp; &lt;br&gt;1d之后必须重新登陆&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-2" vertex="1" connectable="0">
           <mxGeometry x="0.3433" relative="1" as="geometry">
             <mxPoint x="80" y="63" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-11" target="MpVMhdScmPIG8OhLknQO-1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-11" target="MpVMhdScmPIG8OhLknQO-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-8" value="7. 带上登陆信息token请求验证身份" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-7">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-8" value="7. 带上登陆信息token请求验证身份" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-7" vertex="1" connectable="0">
           <mxGeometry x="-0.0826" y="2" relative="1" as="geometry">
             <mxPoint x="79" y="32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-11" target="MpVMhdScmPIG8OhLknQO-16">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-11" target="MpVMhdScmPIG8OhLknQO-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-10" value="9. 返回对应用户的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-9">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-10" value="9. 返回对应用户的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-9" vertex="1" connectable="0">
           <mxGeometry x="-0.235" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-11" value="云服务后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-11" value="云服务后端" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-546" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-11">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-13" value="6.拉取数据&amp;nbsp; &amp;nbsp;&lt;b&gt;云服务API&lt;/b&gt;&lt;br&gt;带上登陆信息 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-12">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-13" value="6.拉取数据&amp;nbsp; &amp;nbsp;&lt;b&gt;云服务API&lt;/b&gt;&lt;br&gt;带上登陆信息 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-12" vertex="1" connectable="0">
           <mxGeometry x="0.0372" y="3" relative="1" as="geometry">
             <mxPoint x="62" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-19">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="40" y="980" />
@@ -1834,23 +1834,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-16" value="O+互联服务端&lt;br&gt;&lt;br&gt;（含便签）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-16" value="O+互联服务端&lt;br&gt;&lt;br&gt;（含便签）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-210" y="870" width="186" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-19" target="MpVMhdScmPIG8OhLknQO-16">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-19" target="MpVMhdScmPIG8OhLknQO-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="154" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-18" value="1. 登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-17">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-18" value="1. 登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-17" vertex="1" connectable="0">
           <mxGeometry x="0.2103" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-19" value="O+互联客户端&lt;br&gt;（win\mac ）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-19" value="O+互联客户端&lt;br&gt;（win\mac ）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="1200" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-1" target="MpVMhdScmPIG8OhLknQO-16">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-1" target="MpVMhdScmPIG8OhLknQO-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="106" y="1140" as="targetPoint" />
             <Array as="points">
@@ -1858,12 +1858,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-21" value="3. 带一些信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-20">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-21" value="3. 带一些信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2769" y="3" relative="1" as="geometry">
             <mxPoint x="-25" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-19">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-16" target="MpVMhdScmPIG8OhLknQO-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="372" y="930" as="sourcePoint" />
             <mxPoint x="510" y="1240" as="targetPoint" />
@@ -1874,23 +1874,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-23" value="4. 把登录态相关信息存用户pc上一个文件？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-22">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-23" value="4. 把登录态相关信息存用户pc上一个文件？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-22" vertex="1" connectable="0">
           <mxGeometry x="-0.1544" y="-1" relative="1" as="geometry">
             <mxPoint x="141" y="221" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.7;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-1" target="MpVMhdScmPIG8OhLknQO-11">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.7;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MpVMhdScmPIG8OhLknQO-1" target="MpVMhdScmPIG8OhLknQO-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-25" value="8. 验证成功，返用户的ssoid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-24">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-25" value="8. 验证成功，返用户的ssoid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-24" vertex="1" connectable="0">
           <mxGeometry x="-0.0095" y="-3" relative="1" as="geometry">
             <mxPoint x="54" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-26" value="&lt;b&gt;账号专门给O+互联做了特殊定制&amp;nbsp; 过期时间30d&lt;br&gt;&lt;br&gt;O+互联为用户数据泄露风险变大担责&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-26" value="&lt;b&gt;账号专门给O+互联做了特殊定制&amp;nbsp; 过期时间30d&lt;br&gt;&lt;br&gt;O+互联为用户数据泄露风险变大担责&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-200" y="1380" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.465;exitY=-0.057;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="MpVMhdScmPIG8OhLknQO-19" target="MpVMhdScmPIG8OhLknQO-16">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.465;exitY=-0.057;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="MpVMhdScmPIG8OhLknQO-19" target="MpVMhdScmPIG8OhLknQO-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="518.0300000000002" y="1256.02" as="sourcePoint" />
             <mxPoint x="200" y="870" as="targetPoint" />
@@ -1899,12 +1899,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-28" value="5. &lt;b&gt;便签API&amp;nbsp;&lt;br&gt;请求数据&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MpVMhdScmPIG8OhLknQO-27">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-28" value="5. &lt;b&gt;便签API&amp;nbsp;&lt;br&gt;请求数据&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MpVMhdScmPIG8OhLknQO-27" vertex="1" connectable="0">
           <mxGeometry x="-0.3448" y="-2" relative="1" as="geometry">
             <mxPoint x="-2" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MpVMhdScmPIG8OhLknQO-30" value="10. 返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="MpVMhdScmPIG8OhLknQO-30" value="10. 返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-10" y="1088" width="90" height="30" as="geometry" />
         </mxCell>
       </root>

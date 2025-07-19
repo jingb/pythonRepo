@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="27.2.0" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1" pages="9">
   <diagram name="第 1 页" id="9Vp9r34HSa7TCJ5cDDs_">
     <mxGraphModel dx="2397" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1906,6 +1906,66 @@
         </mxCell>
         <mxCell id="MpVMhdScmPIG8OhLknQO-30" value="10. 返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-10" y="1088" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bjA0x1cQ-_LCsdmUNaDD" name="第 9 页">
+    <mxGraphModel dx="2084" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sptsQsgaiRvGQqGLpgph-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="160" width="350" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-2" value="ip1:prometheus端口&lt;br&gt;ip2:iprometheus端口&lt;br&gt;…………&lt;br&gt;分组1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="190" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-3" value="ip1:prometheus端口&lt;br&gt;ip2:iprometheus端口&lt;br&gt;…………&lt;br&gt;分组2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-4" value="持续部署平台" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="290" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="sptsQsgaiRvGQqGLpgph-5" target="sptsQsgaiRvGQqGLpgph-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-11" value="2. 周期性拉取prometheus格式的指标&lt;br&gt;&lt;br&gt;值拉取的时候是什么就是什么&lt;br&gt;&lt;br&gt;精度取决于拉取的周期&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sptsQsgaiRvGQqGLpgph-10">
+          <mxGeometry x="0.1072" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sptsQsgaiRvGQqGLpgph-5" target="sptsQsgaiRvGQqGLpgph-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-6" value="云监控系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="752" y="230" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.997;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sptsQsgaiRvGQqGLpgph-5" target="sptsQsgaiRvGQqGLpgph-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-9" value="1. 周期性拉实例的ip端口&lt;br&gt;相当于注册发现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sptsQsgaiRvGQqGLpgph-8">
+          <mxGeometry x="0.2215" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-12" value="告警模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="567.5" y="460" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-13" value="grafana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732.5" y="460" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-15" value="……" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="887.5" y="460" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.424;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sptsQsgaiRvGQqGLpgph-5" target="sptsQsgaiRvGQqGLpgph-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sptsQsgaiRvGQqGLpgph-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.396;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sptsQsgaiRvGQqGLpgph-5" target="sptsQsgaiRvGQqGLpgph-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

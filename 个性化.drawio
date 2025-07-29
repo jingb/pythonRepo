@@ -2043,7 +2043,7 @@
           <mxGeometry x="910.7" y="515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-32" value="调用&amp;nbsp;memspace-odin-infer-pipeline&amp;nbsp;&lt;br&gt;记忆整理接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="395" width="120" height="60" as="geometry" />
+          <mxGeometry x="414" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-34" value="开始普通&lt;br&gt;记忆整理流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="255" width="120" height="60" as="geometry" />

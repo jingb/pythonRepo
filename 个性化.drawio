@@ -1981,10 +1981,10 @@
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-8" value="返回视频记结果&lt;br&gt;最后一帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-165" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="jHl6ZmK0ISZUizp1uqlN-15">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-23" target="jHl6ZmK0ISZUizp1uqlN-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="550" as="targetPoint" />
-            <mxPoint x="730" y="560" as="sourcePoint" />
+            <mxPoint x="730" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jHl6ZmK0ISZUizp1uqlN-14">
@@ -1992,9 +1992,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-23" target="jHl6ZmK0ISZUizp1uqlN-17">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jHl6ZmK0ISZUizp1uqlN-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="440" as="targetPoint" />
+            <mxPoint x="730" y="630" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-26" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jHl6ZmK0ISZUizp1uqlN-16">
@@ -2008,7 +2009,7 @@
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-13" value="下载screenshot（闪记的截图）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="670" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-15" target="jHl6ZmK0ISZUizp1uqlN-22">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-15" target="jHl6ZmK0ISZUizp1uqlN-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="720" as="targetPoint" />
           </mxGeometry>
@@ -2019,7 +2020,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-15" value="是否跑取餐码的算法" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="680" width="80" height="80" as="geometry" />
+          <mxGeometry x="690" y="702.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-17" target="jHl6ZmK0ISZUizp1uqlN-27">
           <mxGeometry relative="1" as="geometry" />
@@ -2036,7 +2037,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-22" value="识别截图是否是&lt;br&gt;取餐码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="827" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-23" target="jHl6ZmK0ISZUizp1uqlN-59">
           <mxGeometry relative="1" as="geometry" />
@@ -2065,7 +2066,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-32" value="调用&amp;nbsp;memspace-odin-infer-pipeline&amp;nbsp;&lt;br&gt;记忆整理接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-32" value="调用&amp;nbsp;memspace-odin-infer-pipeline&amp;nbsp;&lt;br&gt;记忆整理接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="150" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-34" target="jHl6ZmK0ISZUizp1uqlN-43">
@@ -2120,7 +2121,7 @@
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-59" target="jHl6ZmK0ISZUizp1uqlN-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-59" value="每张图并发调POI服务&lt;br&gt;（现在有个线程池，需要控制一定的并发度）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-59" value="每张图并发调POI服务&lt;br&gt;（现在有个线程池，需要控制一定的并发度）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="450" y="710" width="130" height="65" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-64" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-63" target="jHl6ZmK0ISZUizp1uqlN-65">

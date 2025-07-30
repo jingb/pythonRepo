@@ -2009,7 +2009,7 @@
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-13" value="下载screenshot（闪记的截图）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="670" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-15" target="jHl6ZmK0ISZUizp1uqlN-22">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-15" target="jHl6ZmK0ISZUizp1uqlN-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="720" as="targetPoint" />
           </mxGeometry>
@@ -2020,7 +2020,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-15" value="是否跑取餐码的算法" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="702.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="710" y="695" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-17" target="jHl6ZmK0ISZUizp1uqlN-27">
           <mxGeometry relative="1" as="geometry" />
@@ -2037,7 +2037,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-22" value="识别截图是否是&lt;br&gt;取餐码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="800" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-23" target="jHl6ZmK0ISZUizp1uqlN-59">
           <mxGeometry relative="1" as="geometry" />

@@ -1911,7 +1911,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bjA0x1cQ-_LCsdmUNaDD" name="记忆整理流程">
-    <mxGraphModel dx="2492" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2215" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2160,6 +2160,155 @@
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-75" value="回包给客户端&lt;br&gt;&lt;br&gt;结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-3" target="lv-tPpXd5c8OvwS4Ih9h-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-3" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-4" target="lv-tPpXd5c8OvwS4Ih9h-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1370.1666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-7" value="s&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lv-tPpXd5c8OvwS4Ih9h-6">
+          <mxGeometry x="-0.1667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-8" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lv-tPpXd5c8OvwS4Ih9h-6">
+          <mxGeometry x="-0.1459" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-4" target="lv-tPpXd5c8OvwS4Ih9h-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-13" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lv-tPpXd5c8OvwS4Ih9h-12">
+          <mxGeometry x="-0.2167" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-4" value="是否小红书、&lt;br&gt;微博" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-9" target="lv-tPpXd5c8OvwS4Ih9h-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-9" value="调用爬虫服务接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1345" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-10" target="lv-tPpXd5c8OvwS4Ih9h-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-26" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lv-tPpXd5c8OvwS4Ih9h-25">
+          <mxGeometry x="-0.2095" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-10" value="爬下来&lt;br&gt;图片列表？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-14" target="lv-tPpXd5c8OvwS4Ih9h-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347.5" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-14" value="递归捞请求body里面 s3://xxx//yyy 的字符串" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1470" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="323.75" y="1627.5" as="sourcePoint" />
+            <mxPoint x="323.75" y="1627.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-23" target="lv-tPpXd5c8OvwS4Ih9h-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-23" value="并发下载图片&lt;br&gt;至内存里" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-28" target="lv-tPpXd5c8OvwS4Ih9h-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-28" target="lv-tPpXd5c8OvwS4Ih9h-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-28" target="lv-tPpXd5c8OvwS4Ih9h-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.455;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-28" target="lv-tPpXd5c8OvwS4Ih9h-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-28" target="lv-tPpXd5c8OvwS4Ih9h-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-28" value="图片、文本、ocr的文本&lt;br&gt;&lt;br&gt;这坨处理过程比较乱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-31" target="lv-tPpXd5c8OvwS4Ih9h-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-31" value="跑标题摘要算法&lt;br&gt;调用1次模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1971.57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-32" value="跑A、L标签算法&lt;br&gt;含keywords&lt;br&gt;&lt;br&gt;这坨比较复杂" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1971.57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-36" target="lv-tPpXd5c8OvwS4Ih9h-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-40" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lv-tPpXd5c8OvwS4Ih9h-38">
+          <mxGeometry x="-0.3517" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-36" value="来自小红书&lt;br&gt;且爬下来了图片" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1820" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-39" value="调用远端的服务打水印&lt;br&gt;（现在是闪记的后端？！！为啥）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1971.57" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-43" value="跑日常代办算法功能&lt;br&gt;&lt;br&gt;这坨现在巨复杂&lt;br&gt;除了调模型还有调时间解析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1967.36" width="200" height="68.43" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-50" target="lv-tPpXd5c8OvwS4Ih9h-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-50" value="跑单实体算法功能&lt;br&gt;&lt;br&gt;这坨现在还有没有用？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1967.36" width="200" height="68.43" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-53" target="lv-tPpXd5c8OvwS4Ih9h-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-53" value="循环流式回包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="2100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-55" value="聚合最后一个报文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-57" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.181;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-32" target="lv-tPpXd5c8OvwS4Ih9h-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.403;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-39" target="lv-tPpXd5c8OvwS4Ih9h-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-tPpXd5c8OvwS4Ih9h-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.646;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-43" target="lv-tPpXd5c8OvwS4Ih9h-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

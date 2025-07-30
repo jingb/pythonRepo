@@ -1911,7 +1911,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bjA0x1cQ-_LCsdmUNaDD" name="记忆整理流程">
-    <mxGraphModel dx="2215" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2492" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2022,7 +2022,7 @@
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-15" value="是否跑取餐码的算法" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="695" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-17" target="jHl6ZmK0ISZUizp1uqlN-27">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-17" target="jHl6ZmK0ISZUizp1uqlN-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-73" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jHl6ZmK0ISZUizp1uqlN-28">
@@ -2050,11 +2050,11 @@
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-23" value="图片是否下载成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="550" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jHl6ZmK0ISZUizp1uqlN-72" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-27" target="jHl6ZmK0ISZUizp1uqlN-69">
+        <mxCell id="jHl6ZmK0ISZUizp1uqlN-72" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.317;exitY=1.033;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-27" target="jHl6ZmK0ISZUizp1uqlN-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-27" value="识别截图是否是&lt;br&gt;记账场景" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="1020" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jHl6ZmK0ISZUizp1uqlN-62" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHl6ZmK0ISZUizp1uqlN-32" target="jHl6ZmK0ISZUizp1uqlN-63">
           <mxGeometry relative="1" as="geometry">

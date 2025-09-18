@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="28.1.1" pages="2">
   <diagram name="第 1 页" id="yHBMxFlUSX2MlfSCqrbp">
     <mxGraphModel dx="3088" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1731,6 +1731,53 @@
           <mxGeometry x="-0.3556" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sbeyM9knYSCAf4wK5bE3" name="第 2 页">
+    <mxGraphModel dx="2492" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-1" target="Hk-tjEmDnJd3Xs682Dmh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-1" target="Hk-tjEmDnJd3Xs682Dmh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-1" value="os15.0存量手机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-2" value="oppo云北美&lt;br&gt;&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;personal-inference-us.allawntech.com&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-7945&quot;&gt;personal-inference-us.allawntech.com&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-3" value="aws 桶1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-4" target="Hk-tjEmDnJd3Xs682Dmh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-4" value="os15.0存量手机&lt;br&gt;&lt;br&gt;临时测试版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-5" value="谷歌云北美&lt;br&gt;&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;personal-inference-us.allawntech.com&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-7945&quot;&gt;personal-inference-us.allawntech.com&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-6" value="aws 桶2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.304;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-4" target="Hk-tjEmDnJd3Xs682Dmh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-11" target="Hk-tjEmDnJd3Xs682Dmh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-11" value="os15.0存量手机&lt;br&gt;&lt;br&gt;ota升级版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-11" target="Hk-tjEmDnJd3Xs682Dmh-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1779,15 +1779,6 @@
         <mxCell id="Hk-tjEmDnJd3Xs682Dmh-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-11" target="Hk-tjEmDnJd3Xs682Dmh-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-17" target="Hk-tjEmDnJd3Xs682Dmh-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-17" value="os15.0存量手机&lt;br&gt;&lt;br&gt;ota升级版本 但还没切dns解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Hk-tjEmDnJd3Xs682Dmh-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hk-tjEmDnJd3Xs682Dmh-17" target="Hk-tjEmDnJd3Xs682Dmh-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

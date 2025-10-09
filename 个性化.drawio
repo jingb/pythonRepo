@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="28.0.7" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="28.2.5" pages="10">
   <diagram name="第 1 页" id="9Vp9r34HSa7TCJ5cDDs_">
     <mxGraphModel dx="2397" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2309,6 +2309,53 @@
         </mxCell>
         <mxCell id="lv-tPpXd5c8OvwS4Ih9h-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.646;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lv-tPpXd5c8OvwS4Ih9h-43" target="lv-tPpXd5c8OvwS4Ih9h-55">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ipAA8HHgGDE49U_AxiFO" name="第 10 页">
+    <mxGraphModel dx="1665" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qzbaLixKI801Q-8RPR8D-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-2" target="qzbaLixKI801Q-8RPR8D-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-2" value="收完整的标题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-3" target="qzbaLixKI801Q-8RPR8D-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-3" value="敏感词检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-4" value="返回整个标题给客户端&lt;br&gt;&lt;br&gt;日本文化输出的全球地位分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-5" target="qzbaLixKI801Q-8RPR8D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-5" value="收到第一个包既返回客户端&lt;br&gt;&lt;br&gt;&quot;日本&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-6" target="qzbaLixKI801Q-8RPR8D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-6" value="敏感词检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-7" target="qzbaLixKI801Q-8RPR8D-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-7" value="收完剩余的标题&lt;br&gt;&lt;br&gt;&quot;文化输出的全球地位分析&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-8" value="返回剩余标题给客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzbaLixKI801Q-8RPR8D-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;日本文化输出的全球地位分析&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="390" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

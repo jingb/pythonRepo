@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="28.2.5" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="28.2.9" pages="10">
   <diagram name="第 1 页" id="9Vp9r34HSa7TCJ5cDDs_">
     <mxGraphModel dx="2397" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2314,48 +2314,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ipAA8HHgGDE49U_AxiFO" name="第 10 页">
-    <mxGraphModel dx="1665" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2492" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qzbaLixKI801Q-8RPR8D-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-2" target="qzbaLixKI801Q-8RPR8D-3">
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7JQiO2-bmXOgRzNQcOp-3" target="q7JQiO2-bmXOgRzNQcOp-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-9" value="dubbo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7JQiO2-bmXOgRzNQcOp-8">
+          <mxGeometry x="0.0333" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-3" value="助手中控服务&lt;br&gt;&lt;br&gt;session管理&lt;br&gt;聊天记录管理等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.02;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q7JQiO2-bmXOgRzNQcOp-2" target="q7JQiO2-bmXOgRzNQcOp-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-2" value="收完整的标题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-3" target="qzbaLixKI801Q-8RPR8D-4">
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7JQiO2-bmXOgRzNQcOp-7" target="q7JQiO2-bmXOgRzNQcOp-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-3" value="敏感词检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-12" value="http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7JQiO2-bmXOgRzNQcOp-11">
+          <mxGeometry x="-0.0932" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-4" value="返回整个标题给客户端&lt;br&gt;&lt;br&gt;日本文化输出的全球地位分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="200" width="170" height="60" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-7" value="顾问融合服务&lt;br&gt;（之鑫）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="252" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-5" target="qzbaLixKI801Q-8RPR8D-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-10" value="记忆顾问（python）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="362" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-5" value="收到第一个包既返回客户端&lt;br&gt;&lt;br&gt;&quot;日本&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="300" width="170" height="60" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-220" y="90" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-6" target="qzbaLixKI801Q-8RPR8D-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="q7JQiO2-bmXOgRzNQcOp-14">
+          <mxGeometry width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-6" value="敏感词检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-2" value="助手sdk" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="q7JQiO2-bmXOgRzNQcOp-14">
+          <mxGeometry x="100" y="60" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qzbaLixKI801Q-8RPR8D-7" target="qzbaLixKI801Q-8RPR8D-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-4" value="手机" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" vertex="1" parent="q7JQiO2-bmXOgRzNQcOp-14">
+          <mxGeometry x="40" y="10" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-7" value="收完剩余的标题&lt;br&gt;&lt;br&gt;&quot;文化输出的全球地位分析&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="300" width="170" height="60" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-13" value="某个工具sdk" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="q7JQiO2-bmXOgRzNQcOp-14">
+          <mxGeometry x="10" y="60" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-8" value="返回剩余标题给客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="300" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qzbaLixKI801Q-8RPR8D-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;日本文化输出的全球地位分析&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="120" width="390" height="50" as="geometry" />
+        <mxCell id="q7JQiO2-bmXOgRzNQcOp-22" value="云上思维导图服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="360" width="110" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

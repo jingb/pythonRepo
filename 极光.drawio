@@ -1,0 +1,512 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="第 1 页" id="iBArJ0ZWe_TVoPKd9qyB">
+    <mxGraphModel dx="2465" dy="-39" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MW0342u-KZVTibKF6ocE-14" edge="1" parent="1" source="MW0342u-KZVTibKF6ocE-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MW0342u-KZVTibKF6ocE-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-26" connectable="0" parent="MW0342u-KZVTibKF6ocE-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="多个短音频&lt;br&gt;甚至攒了几天的音频" vertex="1">
+          <mxGeometry relative="1" x="-0.1778" y="1" as="geometry">
+            <mxPoint x="4" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="硬件" vertex="1">
+          <mxGeometry height="60" width="120" x="-640.5" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-30" edge="1" parent="1" source="MW0342u-KZVTibKF6ocE-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MW0342u-KZVTibKF6ocE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="客户端" vertex="1">
+          <mxGeometry height="60" width="120" x="-372.5" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-18" edge="1" parent="1" source="MW0342u-KZVTibKF6ocE-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MW0342u-KZVTibKF6ocE-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-31" connectable="0" parent="MW0342u-KZVTibKF6ocE-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="多个短音频" vertex="1">
+          <mxGeometry relative="1" x="-0.1852" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="服务端" vertex="1">
+          <mxGeometry height="177.5" width="84.5" x="-85.37" y="1099.25" as="geometry" />
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-25" edge="1" parent="1" source="MW0342u-KZVTibKF6ocE-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-85" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="796" y="1185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-39" connectable="0" parent="MW0342u-KZVTibKF6ocE-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="一个个会话" vertex="1">
+          <mxGeometry relative="1" x="-0.0588" as="geometry">
+            <mxPoint x="-2" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-19" parent="1" style="whiteSpace=wrap;html=1;rounded=1;arcSize=32;" value="语义分割成&lt;br&gt;多个会话" vertex="1">
+          <mxGeometry height="147.49" width="77" x="606" y="1113" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-81" edge="1" parent="1" source="MW0342u-KZVTibKF6ocE-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312" y="1257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-113" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="长音频文件" vertex="1">
+          <mxGeometry relative="1" x="0.1523" y="1" as="geometry">
+            <mxPoint x="-13" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按多个音频时间序拼接成长音频&lt;br&gt;&lt;br&gt;（提高ASR识别准确性）" vertex="1">
+          <mxGeometry height="62.98" width="172" x="97.5" y="1154.02" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-88" edge="1" parent="1" source="MW0342u-KZVTibKF6ocE-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s2Pzl6gvNlrlivAtUfdU-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MW0342u-KZVTibKF6ocE-24" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="说话人分离" vertex="1">
+          <mxGeometry height="60" width="120" x="967" y="1047" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-89" edge="1" parent="1" source="s2Pzl6gvNlrlivAtUfdU-88" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="s2Pzl6gvNlrlivAtUfdU-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1156" y="1076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-88" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;pre&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22AI%E6%80%BB%E7%BB%93%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221130%22%20y%3D%221169%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;span style=&quot;font-family: monospace; text-align: start; text-wrap-mode: nowrap; font-size: 14.6667px; color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font color=&quot;#494949&quot;&gt;NER重点提取&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="57" width="110" x="971" y="1134" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-89" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;pre&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22AI%E6%80%BB%E7%BB%93%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221130%22%20y%3D%221169%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;span style=&quot;font-family: monospace; text-align: start; text-wrap-mode: nowrap; font-size: 14.6667px; color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font color=&quot;#494949&quot;&gt;AI标题摘要总结&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1176" y="1091" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-90" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;pre&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22AI%E6%80%BB%E7%BB%93%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221130%22%20y%3D%221169%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;span style=&quot;font-family: monospace; text-align: start; text-wrap-mode: nowrap; font-size: 14.6667px; color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font color=&quot;#494949&quot;&gt;重点标记提取&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="971" y="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-91" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;pre&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22AI%E6%80%BB%E7%BB%93%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221130%22%20y%3D%221169%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;span style=&quot;font-family: monospace; text-align: start; text-wrap-mode: nowrap; font-size: 14.6667px; color: rgba(0, 0, 0, 0);&quot;&gt;&lt;font color=&quot;#494949&quot;&gt;日程待办提取&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="975" y="1291" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="104" width="283" x="-755" y="1433" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="短音频" vertex="1">
+          <mxGeometry height="60" width="17" x="-723" y="1455" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-117" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s2Pzl6gvNlrlivAtUfdU-118" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-649" y="1486.07" as="sourcePoint" />
+            <mxPoint x="-569" y="1486.07" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-22" connectable="0" parent="s2Pzl6gvNlrlivAtUfdU-117" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="拼接" vertex="1">
+          <mxGeometry relative="1" x="-0.12" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-94" edge="1" parent="1" source="s2Pzl6gvNlrlivAtUfdU-118" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-446" y="1486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="长音频&lt;br&gt;&lt;br&gt;&amp;lt;=90min" vertex="1">
+          <mxGeometry height="70" width="60" x="-549" y="1451" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="105" width="214" x="-336" y="1433" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-123" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="会话1" vertex="1">
+          <mxGeometry height="30" width="36" x="-271" y="1471" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-124" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="会话2" vertex="1">
+          <mxGeometry height="30" width="36" x="-224" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-103" edge="1" parent="1" source="s2Pzl6gvNlrlivAtUfdU-125" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="1714.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-106" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="追加到前面" vertex="1">
+          <mxGeometry relative="1" x="0.3433" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="尾段" vertex="1">
+          <mxGeometry height="60" width="20" x="-174.5" y="1454" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="短音频" vertex="1">
+          <mxGeometry height="60" width="17" x="-697.5" y="1456" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Pzl6gvNlrlivAtUfdU-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="短音频" vertex="1">
+          <mxGeometry height="60" width="17" x="-669" y="1455" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span data-docs-delta=&quot;[[20,&amp;quot;会话1：产品需求讨论（10:00-10:45）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;ASK1\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;会话2：午餐闲聊（12:15-12:35）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;APEZ\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;会话3：工作安排（14:00-14:30）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;IteT\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot; data-copy-origin=&quot;https://odocs.myoas.com&quot;&gt;&lt;pre&gt;输出：&lt;br&gt;会话1：产品需求讨论（10:00-10:45）&lt;br&gt;会话2：闲聊（11:00-11:25）&lt;br&gt;&lt;br&gt;尾段：一个会议刚开了5min（11:25-11:30）&lt;/pre&gt;&lt;/span&gt;" id="s2Pzl6gvNlrlivAtUfdU-138">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="110" width="236.5" x="-341.5" y="1525.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="106" width="218" x="-459" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="短音频" vertex="1">
+          <mxGeometry height="60" width="17" x="-437" y="1682" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-363" y="1713.0699999999997" as="sourcePoint" />
+            <mxPoint x="-283" y="1713.0699999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-99" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="1714.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-104" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-99" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="asr识别" vertex="1">
+          <mxGeometry relative="1" x="-0.1494" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="长音频" vertex="1">
+          <mxGeometry height="70" width="60" x="-328" y="1677" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="短音频" vertex="1">
+          <mxGeometry height="60" width="17" x="-411.5" y="1683" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="短音频" vertex="1">
+          <mxGeometry height="60" width="17" x="-383" y="1682" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="101" width="226" x="190" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-18" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="语义分割" vertex="1">
+          <mxGeometry x="217.00284415431588" y="1643.999405737034" as="geometry">
+            <mxPoint x="7" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="会话1" vertex="1">
+          <mxGeometry height="30" width="36" x="277" y="1644" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="尾段" vertex="1">
+          <mxGeometry height="60" width="20" x="337" y="1625" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-24" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UzNp8ccw0GJa-fGPZux6-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="1668.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;span data-docs-delta=&quot;[[20,&amp;quot;会话1：产品需求讨论（10:00-10:45）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;ASK1\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;会话2：午餐闲聊（12:15-12:35）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;APEZ\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;会话3：工作安排（14:00-14:30）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;IteT\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot; data-copy-origin=&quot;https://odocs.myoas.com&quot;&gt;&lt;pre&gt;…………&lt;/pre&gt;&lt;/span&gt;" id="UzNp8ccw0GJa-fGPZux6-25">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="48" width="88" x="437" y="1637" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span data-docs-delta=&quot;[[20,&amp;quot;会话1：产品需求讨论（10:00-10:45）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;ASK1\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;会话2：午餐闲聊（12:15-12:35）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;APEZ\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;会话3：工作安排（14:00-14:30）&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;IteT\&amp;quot;|36:177|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot; data-copy-origin=&quot;https://odocs.myoas.com&quot;&gt;&lt;pre&gt;输出：&lt;br&gt;会话1：会议（11:25-12:00）&lt;br&gt;&lt;br&gt;尾段：午饭和家里人视频电话&lt;/pre&gt;&lt;/span&gt;" id="UzNp8ccw0GJa-fGPZux6-26">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="97" width="235" x="213" y="1495" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="……音频3、音频2、音频1&lt;br&gt;&lt;br&gt;严格起止时间有序，因为需要判断长时静音" vertex="1">
+          <mxGeometry height="65" width="144" x="-249" y="1163" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;什么契机下开始做音频asr识别动作 或者说音频文件拼接的终止条件是什么&lt;br&gt;&lt;/b&gt;&lt;br&gt;1. 用户主动点了结束按钮&lt;br&gt;&lt;br&gt;2. 有超过15min的静音&amp;nbsp; &amp;nbsp; 硬件vad是2s一次检测&amp;nbsp; &amp;nbsp;需要服务端来判断两个音频文件间的起止时间来识别长时间的静音&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;3. 语音文件达到了90min?&lt;br&gt;&lt;br&gt;&lt;br&gt;某一批音频文件缺的部分一直客户端没传上来，要有兜底策略&lt;br&gt;客户端没有任务或者批的概念" vertex="1">
+          <mxGeometry height="219" width="476.5" x="-265" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-74" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-82" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.542;exitDx=0;exitDy=0;exitPerimeter=0;" target="MW0342u-KZVTibKF6ocE-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594" y="1121" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-83" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="长音频文本" vertex="1">
+          <mxGeometry relative="1" x="-0.3105" y="-2" as="geometry">
+            <mxPoint x="8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="asr语音转文本" vertex="1">
+          <mxGeometry height="60" width="120" x="376" y="1153.51" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-86" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MW0342u-KZVTibKF6ocE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-87" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s2Pzl6gvNlrlivAtUfdU-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-90" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="s2Pzl6gvNlrlivAtUfdU-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-85" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="控制逻辑" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="1158" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-91" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" target="s2Pzl6gvNlrlivAtUfdU-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-96" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-95" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s2Pzl6gvNlrlivAtUfdU-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-97" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-96" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="语义分割" vertex="1">
+          <mxGeometry relative="1" x="-0.0878" y="-2" as="geometry">
+            <mxPoint x="26" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="asr识别" vertex="1">
+          <mxGeometry height="79" width="67" x="-447" y="1446.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-109" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="71" width="116" x="4" y="1622" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-107" parent="UzNp8ccw0GJa-fGPZux6-109" style="rounded=0;whiteSpace=wrap;html=1;" value="上一轮尾段文本" vertex="1">
+          <mxGeometry height="71" width="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-108" parent="UzNp8ccw0GJa-fGPZux6-109" style="rounded=0;whiteSpace=wrap;html=1;" value="此轮asr文本" vertex="1">
+          <mxGeometry height="71" width="80" x="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-110" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1;fontSize=10;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;pre&gt;10点至11点半音频&lt;/pre&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="68.5" width="182" x="-717" y="1528" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-111" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1;fontSize=10;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;pre&gt;11点半至12点音频&lt;/pre&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="68.5" width="182" x="-442.5" y="1761" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-115" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-114" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-494.0967741935483" y="2811" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="51" width="96" x="-540" y="2656" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-133" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-116" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-489.5" y="3233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-134" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.5178" as="geometry">
+            <mxPoint x="-2" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-146" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-116" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-275.5" y="3125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-150" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-146" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1651" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-116" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="用户点了结束按钮 或者 设备检测到长时间静音" vertex="1">
+          <mxGeometry height="104" width="137" x="-558.5" y="3073" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="取出该用户该设备所有还未转过asr的音频元数据&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;s3ObjectId" vertex="1">
+          <mxGeometry height="66" width="158" x="-487" y="2726" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-180" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-127" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="UzNp8ccw0GJa-fGPZux6-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新音频文件db元数据&lt;br&gt;&lt;br&gt;&lt;b&gt;asr文本存哪？&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="134.5" x="105.25" y="3156" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="语义分割接口" vertex="1">
+          <mxGeometry height="43" width="131.25" x="113.75" y="3451.97" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-168" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-135" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="db增加该分片的元数据&lt;br&gt;&lt;br&gt;分片上传对象存储文件 s3ObjectId" vertex="1">
+          <mxGeometry height="63" width="146.5" x="-565" y="2811" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="更新音频文件db元数据&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="27" width="126" x="-527.5" y="2894" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-141" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-140" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-491.5" y="3374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-171" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-141" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2015" y="-2" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-149" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-140" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-274.5" y="3227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-140" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="捞出来的该用户该设备的N条音频最早的一条 和 当前分片是否满90min" vertex="1">
+          <mxGeometry height="115" width="155" x="-569" y="3219" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-152" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-148" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-153" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-152" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是，调用asr服务" vertex="1">
+          <mxGeometry relative="1" x="-0.5657" y="1" as="geometry">
+            <mxPoint x="31" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-157" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-148" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-158" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-157" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0872" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-148" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="s3ObjectId 这个文件的多个音频分片是否不漏？" vertex="1">
+          <mxGeometry height="132" width="202" x="-299.5" y="3112" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-151" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="-386.5" y="3223" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-159" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-156" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="3475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-160" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-159" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1116" y="-3" as="geometry">
+            <mxPoint x="13" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-183" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-156" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-185" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-183" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是，调用asr服务" vertex="1">
+          <mxGeometry relative="1" x="-0.2276" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-156" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="当前时间 减去&lt;br&gt;最晚一个音频的结束时间&lt;br&gt;是否大于 xx 分钟？" vertex="1">
+          <mxGeometry height="92" width="198" x="-299.5" y="3299" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="-260.5" y="3451.97" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-169" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-167" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-170" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-169" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="流程接着执行" vertex="1">
+          <mxGeometry relative="1" x="-0.2404" y="4" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-167" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="http接口层面回调用端成功" vertex="1">
+          <mxGeometry height="51" width="96" x="-539.5" y="2940" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-181" edge="1" parent="1" source="UzNp8ccw0GJa-fGPZux6-179" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UzNp8ccw0GJa-fGPZux6-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-182" connectable="0" parent="UzNp8ccw0GJa-fGPZux6-181" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="两段文本拼接后调用" vertex="1">
+          <mxGeometry relative="1" x="-0.2332" y="2" as="geometry">
+            <mxPoint x="2" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzNp8ccw0GJa-fGPZux6-179" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="取出上一轮语义分隔剩余的尾段asr文本作为头" vertex="1">
+          <mxGeometry height="50" width="134.5" x="110.5" y="3319" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这几个控制逻辑和依赖关系是和客户端同学对的，还没有和算法double check" vertex="1">
+          <mxGeometry height="113" width="221" x="892" y="931" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-20" edge="1" parent="1" source="aRUhHbH5k2MgKgMAN4sC-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aRUhHbH5k2MgKgMAN4sC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-14" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="语义分割" vertex="1">
+          <mxGeometry x="-640.5" y="2106.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="文本" vertex="1">
+          <mxGeometry height="79" width="67" x="-747.5" y="2079.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-16" edge="1" parent="1" source="aRUhHbH5k2MgKgMAN4sC-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aRUhHbH5k2MgKgMAN4sC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="说话人分离" vertex="1">
+          <mxGeometry height="107" width="136.5" x="-100.00000000000001" y="2064.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-21" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="105" width="201" x="-592.5" y="2064.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-10" parent="aRUhHbH5k2MgKgMAN4sC-21" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="105" width="179" x="11" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-11" parent="aRUhHbH5k2MgKgMAN4sC-21" style="ellipse;whiteSpace=wrap;html=1;fillColor=#007FFF;" value="会话1" vertex="1">
+          <mxGeometry height="30" width="36" x="29" y="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-12" parent="aRUhHbH5k2MgKgMAN4sC-21" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00FF80;" value="会话2" vertex="1">
+          <mxGeometry height="30" width="36" x="85" y="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-13" parent="aRUhHbH5k2MgKgMAN4sC-21" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;" value="尾段" vertex="1">
+          <mxGeometry height="60" width="20" x="142" y="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3399FF;" value="会话1对应的音频文件拼接&lt;br&gt;及 asr文本" vertex="1">
+          <mxGeometry height="63" width="104" x="-233.62" y="2044.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00FF80;" value="会话2对应的音频文件拼接&lt;br&gt;及 asr文本" vertex="1">
+          <mxGeometry height="57" width="113" x="-370.62" y="2049.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="113" width="471" x="-753" y="1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-34" edge="1" parent="1" source="aRUhHbH5k2MgKgMAN4sC-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aRUhHbH5k2MgKgMAN4sC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-713.5" y="2078.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-35" connectable="0" parent="aRUhHbH5k2MgKgMAN4sC-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="asr" vertex="1">
+          <mxGeometry relative="1" x="0.1316" y="1" as="geometry">
+            <mxPoint x="68" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="长音频" vertex="1">
+          <mxGeometry height="64" width="122" x="-428.5" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-38" edge="1" parent="1" source="aRUhHbH5k2MgKgMAN4sC-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="aRUhHbH5k2MgKgMAN4sC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-39" edge="1" parent="1" source="aRUhHbH5k2MgKgMAN4sC-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.348;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="aRUhHbH5k2MgKgMAN4sC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-43" edge="1" parent="1" source="aRUhHbH5k2MgKgMAN4sC-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="aRUhHbH5k2MgKgMAN4sC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-5" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="63" width="77.25" x="-581.25" y="1908.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-4" parent="pABXFUNC6ggci4MRnIYc-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;" value="" vertex="1">
+          <mxGeometry height="63" width="32.75" x="30.25" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-33" parent="pABXFUNC6ggci4MRnIYc-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF80;" value="" vertex="1">
+          <mxGeometry height="63" width="30.25" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-41" edge="1" parent="pABXFUNC6ggci4MRnIYc-5" source="aRUhHbH5k2MgKgMAN4sC-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="aRUhHbH5k2MgKgMAN4sC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-1" parent="pABXFUNC6ggci4MRnIYc-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="尾段" vertex="1">
+          <mxGeometry height="30" width="60" x="17.25" y="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-11" parent="pABXFUNC6ggci4MRnIYc-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="音频3" vertex="1">
+          <mxGeometry height="30" width="60" x="6.25" y="-24" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-6" edge="1" parent="1" source="aRUhHbH5k2MgKgMAN4sC-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="pABXFUNC6ggci4MRnIYc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;" value="" vertex="1">
+          <mxGeometry height="60" width="44" x="-729.25" y="1909.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-8" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="61" width="65.25" x="-663.25" y="1909.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRUhHbH5k2MgKgMAN4sC-32" parent="pABXFUNC6ggci4MRnIYc-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;" value="" vertex="1">
+          <mxGeometry height="61" width="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-2" parent="pABXFUNC6ggci4MRnIYc-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF80;" value="" vertex="1">
+          <mxGeometry height="61" width="34" x="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="音频1" vertex="1">
+          <mxGeometry height="30" width="60" x="-737" y="1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="音频2" vertex="1">
+          <mxGeometry height="30" width="60" x="-663.25" y="1884.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 说话人分离的算法现在要收音频文件及asr文本，同时能出文本及识别说话人&lt;br&gt;&lt;br&gt;2.&amp;nbsp;音频2和音频1拼接的时候&amp;nbsp; 给 说话人分离的接口&amp;nbsp; v0.1的数据是纯文件，v1版本后面可以给 asr文本 + 音频文件 且asr的文本里的时间戳需要改动" vertex="1">
+          <mxGeometry height="131.5" width="351" x="-203.62" y="1832" as="geometry" />
+        </mxCell>
+        <mxCell id="pABXFUNC6ggci4MRnIYc-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 客户端传音频文件至服务端时拼接&lt;br&gt;2. asr文本出来之后做会话分割前会有asr文本的拼接&lt;br&gt;3. 会话做 说话人分离&amp;nbsp; v0.1的版本是需要给算法 asr原文及音频原文件的" vertex="1">
+          <mxGeometry height="109" width="286" x="-704.5" y="1030" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -14,7 +14,7 @@
           <mxGeometry height="60" width="110" x="370" y="370" as="geometry" />
         </mxCell>
         <mxCell id="crbHoiDLcNlh0yYWwVpa-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="长流程里面各环节埋点及可观测" vertex="1">
-          <mxGeometry height="60" width="110" x="490" y="290" as="geometry" />
+          <mxGeometry height="60" width="110" x="500" y="300" as="geometry" />
         </mxCell>
         <mxCell id="crbHoiDLcNlh0yYWwVpa-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进程健康检查拉起" vertex="1">
           <mxGeometry height="60" width="100" x="260" y="525" as="geometry" />

@@ -5,22 +5,37 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="crbHoiDLcNlh0yYWwVpa-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进程健康检查拉起" vertex="1">
-          <mxGeometry height="55" width="100" x="430" y="515" as="geometry" />
+          <mxGeometry height="55" width="100" x="50" y="495" as="geometry" />
         </mxCell>
         <mxCell id="crbHoiDLcNlh0yYWwVpa-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="每个接口兜底的真实成功率告警" vertex="1">
-          <mxGeometry height="60" width="100" x="310" y="440" as="geometry" />
+          <mxGeometry height="60" width="100" x="160" y="420" as="geometry" />
         </mxCell>
         <mxCell id="crbHoiDLcNlh0yYWwVpa-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="长流程里各环节埋&lt;br&gt;点及可观测、告警" vertex="1">
-          <mxGeometry height="60" width="110" x="180" y="360" as="geometry" />
+          <mxGeometry height="60" width="110" x="270" y="340" as="geometry" />
         </mxCell>
         <mxCell id="crbHoiDLcNlh0yYWwVpa-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进程健康检查拉起" vertex="1">
-          <mxGeometry height="55" width="100" x="310" y="515" as="geometry" />
+          <mxGeometry height="55" width="100" x="160" y="495" as="geometry" />
         </mxCell>
         <mxCell id="crbHoiDLcNlh0yYWwVpa-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进程健康检查拉起" vertex="1">
-          <mxGeometry height="55" width="110" x="180" y="515" as="geometry" />
+          <mxGeometry height="55" width="110" x="270" y="495" as="geometry" />
         </mxCell>
         <mxCell id="crbHoiDLcNlh0yYWwVpa-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="每个接口兜底的真实成功率告警" vertex="1">
-          <mxGeometry height="60" width="110" x="180" y="440" as="geometry" />
+          <mxGeometry height="60" width="110" x="270" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="asr77wFuKdcsFYnK-xhy-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="400" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asr77wFuKdcsFYnK-xhy-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="部署平台提供能力" vertex="1">
+          <mxGeometry height="22" width="110" x="448" y="511.5" as="geometry" />
+        </mxCell>
+        <mxCell id="asr77wFuKdcsFYnK-xhy-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接口通过网关转发既有，但&lt;b&gt;如果http响应码不是约定俗成的语义&lt;/b&gt;告警策略相当于没有" vertex="1">
+          <mxGeometry height="70" width="166" x="420" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="asr77wFuKdcsFYnK-xhy-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="举例：抖音视频记过去1h有2w个请求，500个失败，100个在爬虫解析环节失败，200个在下载环节失败，200个在asr环节失败……" vertex="1">
+          <mxGeometry height="95" width="187" x="420" y="322.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

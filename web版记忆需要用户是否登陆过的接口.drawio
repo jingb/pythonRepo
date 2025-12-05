@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="客户端" vertex="1">
-          <mxGeometry height="60" width="120" x="-260" y="250" as="geometry" />
+          <mxGeometry height="60" width="120" x="-280" y="370" as="geometry" />
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-6" edge="1" parent="1" source="VvkW3-ksbAVMnn2S_loW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VvkW3-ksbAVMnn2S_loW-5">
           <mxGeometry relative="1" as="geometry" />
@@ -32,15 +32,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记忆服务端" vertex="1">
-          <mxGeometry height="60" width="120" x="90" y="250" as="geometry" />
+          <mxGeometry height="60" width="120" x="70" y="370" as="geometry" />
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="助手用户中心" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="250" as="geometry" />
+          <mxGeometry height="60" width="120" x="410" y="370" as="geometry" />
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-9" edge="1" parent="1" source="VvkW3-ksbAVMnn2S_loW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="VvkW3-ksbAVMnn2S_loW-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="500" as="sourcePoint" />
-            <mxPoint x="500" y="340" as="targetPoint" />
+            <mxPoint x="20" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-10" connectable="0" parent="VvkW3-ksbAVMnn2S_loW-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="查询是否登陆过记忆app&lt;br&gt;没有则不允许进行后续操作" vertex="1">
@@ -49,10 +49,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记忆web页面" vertex="1">
-          <mxGeometry height="60" width="120" x="90" y="430" as="geometry" />
+          <mxGeometry height="60" width="120" x="70" y="550" as="geometry" />
         </mxCell>
         <mxCell id="VvkW3-ksbAVMnn2S_loW-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="账号服务端" vertex="1">
-          <mxGeometry height="60" width="120" x="90" y="60" as="geometry" />
+          <mxGeometry height="60" width="120" x="70" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

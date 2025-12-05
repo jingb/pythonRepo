@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="29.2.4">
+  <diagram name="第 1 页" id="mjbSo1hHFIb_OY3zMecY">
+    <mxGraphModel dx="2253" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-3" edge="1" parent="1" source="VvkW3-ksbAVMnn2S_loW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VvkW3-ksbAVMnn2S_loW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-4" connectable="0" parent="VvkW3-ksbAVMnn2S_loW-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="冷启动 或者 用户主动登陆账号&lt;br&gt;ssoid 或者 账号token" vertex="1">
+          <mxGeometry relative="1" x="-0.1455" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="客户端" vertex="1">
+          <mxGeometry height="60" width="120" x="-260" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-6" edge="1" parent="1" source="VvkW3-ksbAVMnn2S_loW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VvkW3-ksbAVMnn2S_loW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-7" connectable="0" parent="VvkW3-ksbAVMnn2S_loW-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="api写入账号曾经登陆过的关系" vertex="1">
+          <mxGeometry relative="1" x="0.125" y="-3" as="geometry">
+            <mxPoint x="-8" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-12" edge="1" parent="1" source="VvkW3-ksbAVMnn2S_loW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="VvkW3-ksbAVMnn2S_loW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-13" connectable="0" parent="VvkW3-ksbAVMnn2S_loW-12" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="如果客户端只能传token需要&lt;br&gt;去账号服务换回ssoid" vertex="1">
+          <mxGeometry relative="1" x="0.2308" y="3" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记忆服务端" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="助手用户中心" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-9" edge="1" parent="1" source="VvkW3-ksbAVMnn2S_loW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="VvkW3-ksbAVMnn2S_loW-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="500" as="sourcePoint" />
+            <mxPoint x="500" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-10" connectable="0" parent="VvkW3-ksbAVMnn2S_loW-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="查询是否登陆过记忆app，没有不允许进行后续操作" vertex="1">
+          <mxGeometry relative="1" x="-0.4836" y="-2" as="geometry">
+            <mxPoint x="38" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记忆web页面" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="VvkW3-ksbAVMnn2S_loW-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="账号服务端" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
